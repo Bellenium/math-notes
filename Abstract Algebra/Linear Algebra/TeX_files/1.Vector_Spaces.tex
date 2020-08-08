@@ -1,0 +1,143 @@
+\chapter{Vector Spaces}
+\section{Fields}
+A field $\mathcal{F}$ is an abstract algebraic object. Throughout these notes $\mathcal{F}$ stands for either $\mathbb{R}$ or $\mathbb{C}$. \footnote{Many of theorems and definitions work even if replace $\mathcal{F}$ with an arbitrary field.}
+\section{Complex Numbers}
+A complex number is an order pair ${} \in \mathbb{C}$ where $a,b \in \mathbb{R}$ where we can denote it as $z = a + ib$ where $i = \sqrt{-1}$
+\subsection{Addition}
+$z_{1} = a_{1} + ib_{1}, \ z_{2} = a_{2} + ib_{2}$
+$$z_{1} + z_{2} =  (a_{1} + a_{2}) + i(b_{1} + b_{2})$$
+\subsection{Multiplication}
+$z_{1} = a_{1} + ib_{1}, \ z_{2} = a_{2} + ib_{2}$
+$$z_{1}z_{2} =  (a_{1} + ib_{1})(a_{2} + ib_{2}) = (a_{1}a_{2} - b_{1}b_{2}) + i(a_{1}b_{2} + a_{2}b_{1})$$
+\subsection{Properties}\footnote{$\mathcal{W}, \mathcal{Z}, \lambda \in \mathbb{C}$}
+\subsubsection{Commutativity}
+$$\mathcal{W} + \mathcal{Z} = \mathcal{Z} + \mathcal{W}$$
+$$\mathcal{W}\mathcal{Z} = \mathcal{Z}\mathcal{W}$$
+\subsubsection{Associativity}
+$$(\mathcal{Z}_1 + \mathcal{Z}_2) + \mathcal{Z}_3 = \mathcal{Z}_1 + (\mathcal{Z}_2 + \mathcal{Z}_3)$$
+$$(\mathcal{Z}_1\mathcal{Z}_2)\mathcal{Z}_3 = \mathcal{Z}_1(\mathcal{Z}_2\mathcal{Z}_3)$$
+\subsubsection{Identities}
+$$\mathcal{Z} + 0 = \mathcal{Z}$$
+$$\mathcal{Z}1 = \mathcal{Z}$$
+\subsubsection{Additive Inverse}
+$$\forall \ \mathcal{Z} \ \exists \ \mathcal{Z}^{-1} \ | \ \mathcal{Z} + \mathcal{Z}^{-1} = 0$$
+\subsubsection{Multiplicative Inverse}
+$$\forall \  \mathcal{Z} \neq 0 \ \exists \ \mathcal{W} \ | \ \mathcal{Z}\mathcal{W} = 1$$
+\subsubsection{Distributive Property}
+$$\lambda(\mathcal{W} + \mathcal{Z}) = \lambda\mathcal{W} + \lambda\mathcal{Z}$$
+\section{Notation}
+\textit{\textbf{n-tuple}} refers to an ordered set of $n$ numbers over a field $\mathcal{F}$.
+\section{Definition of a Vector Space}
+\label{sec: Sec 1.3}
+A vector space $\mathbb{V}$ is a set along with the regular multiplication and addition operations over a field $\mathcal{F}$, such that the following axioms hold: \footnote{Here, $\alpha , \beta \in \mathcal{F}$ and $\mathcal{U}, \mathcal{V} $ and $\mathcal{W} \in \mathbb{V}$} \\
+\subsection{Commutativity}
+ $$\mathcal{U} + \mathcal{V} = \mathcal{V} + \mathcal{U}$$
+\subsection{Associativity}
+ $$(\mathcal{U} + \mathcal{V}) + \mathcal{W} = \mathcal{V} + (\mathcal{U} + \mathcal{W})$$
+ $$(\alpha \beta) \mathcal{V} = \alpha (\beta \mathcal{V})$$
+\subsection{Additive Identity}
+$$\exists \  0 \in \mathbb{V} \ | \ \mathcal{V} + 0 = 0 + \mathcal{V} = \mathcal{V}$$
+\subsection{Additive Inverse}
+$$\forall \ \mathcal{V} \ \exists \ \mathcal{V}^{-1} \ | \ \mathcal{V} + \mathcal{V} = 0$$
+\subsection{Multiplicative identity}
+$$\exists \ 1 \in \mathbb{V} \ | \ 1 \mathcal{V} = \mathcal{V}$$
+\subsection{Distributive properties}
+$$\alpha (\mathcal{U} + \mathcal{V}) = \alpha \mathcal{U} + \alpha \mathcal{V}$$
+$$(\alpha + \beta) \mathcal{U} = \alpha \mathcal{U} + \beta \mathcal{U}$$
+\section{Properties of a Vector Space}
+\subsection{\textit{A vector space has a unique additive identity}}
+Suppose there exist two additive identities $0$ and $0^{'}$ for the vector space $\mathbb{V}$, we can say that
+$$0 = 0 +  0^{'} = 0^{'}$$
+Thus,
+\begin{tcolorbox}
+	\begin{equation}
+		0 = 0^{'}
+	\end{equation}
+\end{tcolorbox}
+\subsection{Ever element in a vector space has a unique additive inverse}
+Suppose where $\mathcal{W}$ and $\mathcal{W}^{'}$ are the additive inverses of $\mathcal{V}$, then
+
+\begin{tcolorbox}
+\begin{equation}
+\mathcal{W} = \mathcal{W}^{'}
+\end{equation}
+\end{tcolorbox}
+ 
+\subsection{$0\mathcal{V} = 0 \  \forall \ \mathcal{V} \in \mathbb{V}$}
+$\forall \ \mathcal{V} \in \mathbb{V}$,
+$$0 \mathcal{V} = (0 + 0) \mathcal{V} = 0 \mathcal{V} + 0 \mathcal{V}$$
+$$0 \mathcal{V} - 0 \mathcal{V} = 0 = 0 \mathcal{V} $$
+Thus,
+\begin{tcolorbox}
+	\begin{equation}
+		 0 = 0 \mathcal{V}
+	\end{equation}
+ \end{tcolorbox}
+\subsection{$0\alpha = 0 \  \forall \ \alpha \in \mathcal{F}$}
+$\forall \ \alpha \in \mathbb{F}$,
+$$0 \alpha = (0 + 0) \alpha = 0 \alpha + 0 \alpha$$
+$$0 \alpha - 0 \alpha = 0 = 0 \alpha $$
+Thus,
+\begin{tcolorbox}
+	\begin{equation}
+	0\alpha = 0
+	\end{equation}
+\end{tcolorbox}
+\subsection{$(-1)\mathcal{V} = -\mathcal{V} \ \forall \ \mathcal{V} \in \mathcal{F}$}
+$\forall \ \mathcal{V} \in \mathbb{V}$,
+$$0 \mathcal{V} = (0 + 0) \mathcal{V} = 0 \mathcal{V} + 0 \mathcal{V}$$
+$$0 \mathcal{V} - 0 \mathcal{V} = 0 = 0 \mathcal{V} $$
+Thus,
+\begin{tcolorbox}
+	\begin{equation}
+	0 = 0 \mathcal{V}
+	\end{equation}
+\end{tcolorbox}
+\section{Subspaces}
+\subsection{Definition}
+A $\mathbb{U} \subset \mathbb{V}$ is called a \textit{\textbf{subspace}} of $\mathbb{V}$ if $\mathbb{U}$ is also a vector space as defined in \hyperref[sec: Sec 1.3]{Sec 1.3}
+\subsection{Properties}
+If $\mathbb{U} \subset \mathbb{V}$ then to check whether $\mathbb{U}$ is a subspace of $\mathbb{V}$, we simply need to check for the following properties
+\subsubsection{Additive identity}
+$$0 \in \mathbb{U}$$
+\subsubsection{Closed under addition}
+$$\mathcal{U}, \mathcal{V} \in \mathbb{U} \implies \mathcal{U} + \mathcal{V} \in  \mathbb{U}$$
+\subsubsection{Closed under scalar multiplication}
+$$\forall \  \alpha \in \mathcal{F} \ and \ \mathcal{U} \in \mathbb{U} \implies \alpha \mathcal{U} \in \mathbb{U}$$
+\section{Sums}
+The sum of $\mathcal{U}$ and $\mathcal{V}$ which are subspaces of $\mathbb{V}$ is defined to be the set of all poissible sums of the elements is denoted in the RHS as,
+$$\mathcal{U} + \mathcal{V} = \{u + v: u \in \mathcal{U}, v \in  \mathcal{V}\}$$
+
+\section{Direct Sums}
+A direct sum of sub-spaces is a special type of sum in which
+\subsection{Proposition 1}
+Suppose $\mathbb{U}_1, \mathbb{U}_2$ are subspaces of $\mathbb{V}$. Then $\mathbb{V} = \mathbb{U}_1 \oplus \mathbb{U}_2$ if and only if both the following conditions hold:
+\begin{itemize}
+	\item $\mathbb{V} = \mathbb{U}_1 + \mathbb{U}_2$
+	\item the only wayt to write - as a sum $\mathcal{U}_1 + \mathcal{U}_2$, where each $\mathcal{U}_j \in \mathbb{U}_j$, is by taking all the $\mathcal{U}_j = 0 $
+\end{itemize}
+\subsubsection{Proof}
+ First suppose that $\mathbb{V} = \mathbb{U}_1 \oplus \mathbb{U}_2$. Clearly the first condition holds because of how sum and direct sum are defined. To prove the latter suppose $\mathcal{U}_1 \in \mathbb{U}_1, \mathcal{U}_2 \in \mathbb{U}_2$ and
+ $$0 = \mathcal{U}_1 + \mathcal{U}_2$$
+ Then each $\mathcal{U}_i$ must be, as this follows from the uniqueness part of the definition of direct sum because $0 = 0 + 0$ and $0 \in \mathbb{U}_1, 0 \in \mathbb{U}_2$. Now suppose that both the conditions hold. Let $\mathcal{V} \in \mathbb{V}$. By the first condition we can write:
+ $$\mathcal{V} =  \mathcal{U}_1 + \mathcal{U}_1$$
+ for some $\mathcal{U}_1 \in \mathbb{U}_1$ and $\mathcal{U}_2 \in \mathbb{U}_2$. To show that this representation is unique, suppose we also have:
+ $$\mathcal{V} = \mathcal{V}_1 + \mathcal{V}_2$$
+ where $\mathcal{V}_1 \in \mathbb{U}_1$ and $\mathcal{V}_2 \in \mathbb{U}_2$. Subtracting these two equations we have
+ $$0 = (\mathcal{U}_1 - \mathcal{V}_1) + (\mathcal{U}_2 - \mathcal{V}_2)$$
+ Clearly $\mathcal{U}_i - \mathcal{V}_i \in \mathbb{U}_i$, so the equation above and the second condition imply that each $\mathcal{U}_i - \mathcal{V}_i = 0$. Thus, $\mathcal{U}_i = \mathcal{V}_i$ as desired.
+\subsection{Proposition 2}
+Suppose that $\mathbb{U}$ and $\mathbb{W}$ are subspaces of $\mathbb{V}$. Then $\mathbb{V} = \mathbb{U} + \mathbb{W} \ $ i.f.f. $\mathbb{V} = \mathbb{U} + \mathbb{W}$ and $\mathbb{V} \cap \mathbb{W} = 0$.
+\subsubsection{Proof}
+First suppose that $\mathbb{V} = \mathbb{U} \oplus \mathbb{W}$. Then $\mathbb{V} = \mathbb{U} + \mathbb{W}$, by the definition of a direct sum. Also, if $\mathcal{V} \in \mathbb{U} \cap \mathbb{W}$, then $0 = \mathcal{V} + (-\mathcal{V})$, where $\mathcal{V} \in \mathbb{U}$ and $-\mathcal{V} \in \mathbb{W}$. By the unique reppresentation of  as the sum of a vector $\mathbb{U}$ in and a vector in $\mathbb{W}$, we must have $\mathcal{V} = 0$.Thus, $\mathbb{U} \cap \mathbb{W} = \{0\}$ . This is one way to prove it. \\
+
+To prove the other way, now suppose that $\mathbb{V} = \mathbb{U} + \mathbb{W}$ and $\mathbb{U} \cap \mathbb{W} = {0}$. To prove that $\mathbb{V} = \mathbb{U} \oplus \mathbb{W}$, suppose that 
+$$0 = \mathcal{U} + \mathcal{V}$$
+where $\mathcal{U} \in \mathbb{U}$ and $\mathcal{W} \in \mathbb{W}$. To complete the proof, wee only need to show that $\mathcal{U} = \mathcal{W} = 0$. The equation above implies that $\mathcal{U} = - \mathcal{W} \in \mathbb{W}.$ from axiom 4. Thus, $\mathcal{U} \in \mathbb{U} \cap \mathbb{W}$, and hence $\mathcal{U} = 0$
+\section{Note}
+\begin{itemize}
+	\item Sums of subspaces are analogous to unions of subsets
+	\item Similarly, direct sums of subspaces are analogous to disjoint unions of subset i.e. they have no element in common
+	\item No two subspaces of a vector space can be disjoint because both must contain $0$ as per the axioms stated in 
+	\item Thus, disjointness is replaced, at least in the case of two subspaces, with the requirement that the intersection equals ${0}$
+\end{itemize}

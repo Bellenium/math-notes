@@ -1,0 +1,176 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  16 JUN 2020 09:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Graph_Theory_Optimisation.tex
+(./Graph_Theory_Optimisation.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/book.
+cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/bk12.
+clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/input
+enc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/g
+raphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/k
+eyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/g
+raphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/t
+rig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics-c
+fg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics-d
+ef/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3backend/
+l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
+) (./Graph_Theory_Optimisation.aux
+(./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux))
+\openout1 = `Graph_Theory_Optimisation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/context/base/mki
+i/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count177
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen138
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks19
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/epstopdf-p
+kg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/latexconfi
+g/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+ [1
+
+
+
+{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-var/fonts/map/pdftex/updm
+ap/pdftex.map}] [2
+
+] (./Graph_Theory_Optimisation.toc)
+\tf@toc=\write3
+\openout3 = `Graph_Theory_Optimisation.toc'.
+
+
+[3] [4
+
+]
+\openout2 = `./TeX_files/chapter01.aux'.
+
+ (./TeX_files/chapter01.tex
+Chapter 1.
+) [1
+
+
+]
+\openout2 = `./TeX_files/chapter02.aux'.
+
+ (./TeX_files/chapter02.tex [2
+
+
+
+]
+Chapter 2.
+) [3] [4
+
+
+] (./Graph_Theory_Optimisation.aux (./TeX_files/chapter01.aux)
+(./TeX_files/chapter02.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1211 strings out of 480476
+ 19126 string characters out of 5888293
+ 251556 words of memory out of 5000000
+ 17261 multiletter control sequences out of 15000+600000
+ 535113 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,25p,202b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/0.Library/0. Software/TeX Live/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/0.Library/0. Software/T
+eX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/0.
+Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsl12.pfb>
+Output written on Graph_Theory_Optimisation.pdf (8 pages, 44223 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

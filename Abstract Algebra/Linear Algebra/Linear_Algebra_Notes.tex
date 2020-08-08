@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt]{book}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\usepackage{mathtools}
+%\usepackage{fontspec}
+%\setmathfont{XITS Math}
+%\setmathfont[version=setB,StylisticSet=1]{XITS Math}
+%\setmainfont{TeX Gyre Pagella}
+%\hypersetup{
+%	colorlinks=true, %set true if you want colored links
+%	linktoc=all,     %set to all if you want both sections and subsections linked
+%	linkcolor=blue,  %choose some color if you want links to stand out
+%	linktocpage
+%}
+
+\begin{document}
+
+\author{Pugazharasu A. D.}
+\title{Linear Alegbra}
+\date{June 2020}
+
+\frontmatter
+\maketitle
+\chapter{Preface}
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/5.Polynomials}
+\include{./TeX_files/12.More_Matrix_Algebra}
+\include{./TeX_files/1.Vector_Spaces}
+\include{./TeX_files/2.Finite_Dimensional_Vector_Spaces}
+\include{./TeX_files/3.Infinite_Dimensional_Vector_Spaces}
+%\include{./TeX_files/4.Linear_Maps}
+%\include{./TeX_files/6.Eigenstuff}
+\include{./TeX_files/7.Inner_Product_Spaces}
+\include{./TeX_files/8.Operators_on_Inner_Product_Spaces}
+\include{./TeX_files/9.Operators_On_Z}
+\include{./TeX_files/10.Operators_On_R}
+\include{./TeX_files/11.Trace_and_Determinant}
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
