@@ -61,6 +61,7 @@
 \contentsline {section}{\numberline {3.9}Note}{11}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Finite Dimensional Vector Spaces}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Span and Linear Independence}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Bases}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Dimension}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.1.1}Span}{13}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Bases}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Dimension}{14}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Infinite Dimensional Vector Spaces}{15}{chapter.5}%

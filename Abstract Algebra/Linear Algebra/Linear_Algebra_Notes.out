@@ -61,6 +61,7 @@
 \BOOKMARK [1][-]{section.3.9}{Note}{chapter.3}% 61
 \BOOKMARK [0][-]{chapter.4}{Finite Dimensional Vector Spaces}{}% 62
 \BOOKMARK [1][-]{section.4.1}{Span and Linear Independence}{chapter.4}% 63
-\BOOKMARK [1][-]{section.4.2}{Bases}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.3}{Dimension}{chapter.4}% 65
-\BOOKMARK [0][-]{chapter.5}{Infinite Dimensional Vector Spaces}{}% 66
+\BOOKMARK [2][-]{subsection.4.1.1}{Span}{section.4.1}% 64
+\BOOKMARK [1][-]{section.4.2}{Bases}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.3}{Dimension}{chapter.4}% 66
+\BOOKMARK [0][-]{chapter.5}{Infinite Dimensional Vector Spaces}{}% 67
