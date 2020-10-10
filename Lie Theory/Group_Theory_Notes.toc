@@ -4,3 +4,5 @@
 \contentsline {subsection}{\numberline {1.1.2}Invariant Subspaces}{2}%
 \contentsline {subsection}{\numberline {1.1.3}Irreducible Representation}{2}%
 \contentsline {chapter}{\numberline {2}The Second Chapter}{3}%
+\contentsline {section}{\numberline {2.1}Quantum Mechanics}{3}%
+\contentsline {section}{\numberline {2.2}Quantum Field Theory}{3}%
