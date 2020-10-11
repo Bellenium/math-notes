@@ -1,8 +1,48 @@
 \chapter{The Second Chapter}
+\section{Noether's Theorem}
+\begin{equation}
+\text{Symmetry i.e. invairiance of the Lagrangian under a generator } \rightarrow \text{ Conserved quantity}
+\end{equation}
 \section{Quantum Mechanics}
-Everytim the aciton of a generator leaves the Lagrangian invariant it leads to the conservation of a quantity. The Canonical commutation algebra is a realtionship between the position and momentum opearators that
+Everytime the aciton of a generator leaves the Lagrangian invariant it leads to the conservation of a quantity. 
+\begin{equation}
+	\text{momentum } \hat{P}_{i} \rightarrow \text{generator of spatial-translations: } -i \partial_{i}
+\end{equation}
+\begin{equation}
+\text{energy } \hat{E} \rightarrow \text{generator of time-translations: }  i \partial_{0}
+\end{equation}
+\begin{equation}
+\text{position } \hat{x}_{i} \rightarrow x_{i}
+\end{equation}
+
+The Canonical commutation algebra is a realtionship between the position and momentum opearators that
+\begin{equation}
+	\left[\hat{x}_{i}, \hat{p}_{j}\right] = i \hbar \delta_{ij}
+\end{equation}
+
+\section{Spin and Angular Momentum}
+Analogously we identify the first part, called spin, with the corresponding finite dimensional representation of the generators as this was the part of the conserved quantity that resulted from the invariance under mixing of the field components. Hence the finite-dimensional representation.
+\begin{equation}
+\text{spin } \hat{S}_{i} \rightarrow \text{generators of rotations (fin. dim. rep.) } S_{i}
+\end{equation}
+Where spin is defined by the relations:
+\begin{equation}
+	S_{i} = \frac{1}{2} \epsilon_{ijk} S_{jk}
+\end{equation}
+
+\begin{equation}
+\hat{S}_{i} = i\frac{\sigma_{i}}{2}
+\end{equation}
 
 \section{Quantum Field Theory}
-Quantum Field Theory is about the dance between various quantizable fields i.e. functions of space and time $\phi (\vec{x},t)$. We will therefore be dealing with points in spacetime and thus it natural to talk about the densities of our dynamical variables such as conjugate momentum $\pi = \pi (x)$ rather than the total quantities we get by integrating them over spacetime i.e. $s$.
+Quantum Field Theory is about the dance between various quantizable fields i.e. functions of space and time $\phi (\vec{x},t)$. We will therefore be dealing with points in spacetime and thus it natural to talk about the densities of our dynamical variables such as conjugate momentum $\pi = \pi (x)$ rather than the total quantities we get by integrating them over spacetime i.e. $\Pi = \int \pi (x) d^{3}x \neq \Pi (x)$.
 
-Earlier we discovered that invariance under displacements of the field itself is a new conserved quantity called conjugate momentum. We now identify it with the corresponding generator:
+Earlier we discovered that invariance under displacements of the field $\phi \rightarrow \phi - i \epsilon$ itself is a new conserved quantity called conjugate momentum $\Pi$. We now identify it with the corresponding generator:
+\begin{equation}
+\text{conj. mom. density }	\pi (x) \rightarrow \text{gen. of displ. of the field itself : } -i\frac{\partial}{\partial \phi (x)}
+\end{equation}
+Similar to Quantum Mechanics, in Quantum Field Theory, everything flows from this relationship:
+\begin{equation}
+\left[\phi_{i} (x), \pi_{j} (y)\right] = i \delta (x-y) \delta_{ij}
+\end{equation}
+
