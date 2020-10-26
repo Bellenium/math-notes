@@ -1,0 +1,89 @@
+\documentclass[a4paper,12pt]{book}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\usepackage{mathtools}
+%\hypersetup{
+%	colorlinks=true, %set true if you want colored links
+%	linktoc=all,     %set to all if you want both sections and subsections linked
+%	linkcolor=blue,  %choose some color if you want links to stand out
+%	linktocpage
+%}
+\begin{document}
+
+\author{Pugazharasu}
+\title{Mathematical Physics}
+\date{July 2020}
+
+\frontmatter
+\maketitle
+\pagebreak
+\chapter*{Preface}
+This document is simply the collective summary of all of the fundamental mathematics that I have learnt over the years. This assumes a little mathematical maturity. More niche subjects such as analysis, topology and Lie theory are relegated in separate documents. This should only be treated as a revision/recall document and not as a learning material since it is devoid of lenghty explanations and often assumes you have at least briefly read through the cited texts or similar material.
+\nopagebreak
+\tableofcontents
+
+
+%\pagebreak
+
+\addcontentsline{toc}{chapter}{Preface}
+
+\mainmatter
+%\include{./TeX_files/chapter-2}
+%\include{./TeX_files/chapter-1}
+%\include{./TeX_files/chapter00}
+%\include{./TeX_files/chapter01}
+%\include{./TeX_files/chapter02}
+%\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+\include{./TeX_files/chapter07}
+\include{./TeX_files/chapter08}
+\include{./TeX_files/chapter09}
+\include{./TeX_files/chapter10}
+\include{./TeX_files/chapter11}
+\include{./TeX_files/chapter12}
+\backmatter
+\begin{thebibliography}{9}
+	\bibitem{arxivmath}
+	Jean Claude Dutailly.
+	\textit{Mathematics for theoretical physics}.
+	arXiv:1209.5665v2
+	
+	\bibitem{latexcompanion} 
+	Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+	\textit{The \LaTeX\ Companion}. 
+	Addison-Wesley, Reading, Massachusetts, 1993.
+	
+	\bibitem{Nathan} 
+	Nathan Carter 
+	\textit{Visual Group Theory}. 
+	Annalen der Physik, 322(10):891–921, 1905.
+	
+	\bibitem{Munkres} 
+	James R. Munkres 
+	\textit{Topology}.
+	Annalen der Physik, 322(10):891–921, 1905.
+	
+	\bibitem{Stillwell} 
+	John Stillwell 
+	\textit{Naive Lie Theory}. 
+	Annalen der Physik, 322(10):891–921, 1905.
+	
+	\bibitem{Artin} 
+	Michael Artin 
+	\textit{Algebra}Computers and Typesetting,
+	\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+% bibliography, glossary and index would go here.
+
+\end{document}
