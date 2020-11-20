@@ -1,1 +1,47 @@
-\chapter{The First Chapter}
+\chapter{Basics}
+\begin{itemize}
+\item A Graph is a set of objects and the relationships between pairs of objects
+\item A Graph $G(V,E)$, is a set of V vertices/nodes and $E$ edges
+\end{itemize}
+\begin{figure}[h]
+	\centering
+\includegraphics[scale = 0.1]{1.png}
+\caption{A visual representation of a simple Graph}
+\end{figure}
+\begin{itemize}
+\item For the above figure we 
+\begin{itemize}
+\item $e$ \textbf{Connects} $u$ and $v$
+\item $u$ and $v$ are \textbf{End Points} of $e$
+\item $u$ and $e$ are \textbf{Incident}
+\item $u$ and $v$ are \textbf{Adjacent}
+\item $u$ and $v$ are \textbf{Neighbors}
+\end{itemize}
+\item Or in set theory lingo as $G(\{u,v\},\{e\})$
+\end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.1]{2.png}
+	\caption{A visual representation of a simple directed Graph}
+\end{figure}
+\begin{itemize}
+\item There also exist \textbf{directed Edges/Arcs} i.e. , they describe asymmetric relations
+\item \textbf{Degree} of a vertex is the number of its incident edges i.e. neighbours denoted by $deg(v)$
+\item The degree of a graph is the maximum degree of its vertices
+\item A \textbf{Regular graph} is a graph where each vertex has the same degree
+\item A regular graph of $n$ degrees is called $n-$Regular
+\item  The Complement of a graph $G = (V, E)$ is a graph $\bar{G} = (V, \bar{E})$ on the same set of vertices $V$ and the following set of edges:
+\begin{itemize}
+\item Two vertices are connected in $\bar{G}$ if and only $iff$ they are not connected in $G$ i.e. $(u,v) \in \bar{E} \ iff \  (u,v) \notin E$
+\item A \textbf{Path} is a continuous sequence of edges that connect two vertices
+\item A \textbf{Walk} in a graph is a sequence of edges, such that each edge except for the first one starts with a vertex where the previous edge ended
+\item The \textbf{Length} of a walk is the number of edges in it
+\item A \textbf{Path} (rigorously) is a walk where all edges are distinct
+\item A \textbf{Simple Path} is a walk where all vertices are distinct
+\end{itemize}
+\item  A \textbf{Cycle} in a graph is a path whose first vertex is the same as the last one; In particular, \textit{all the edges in a Cycle are
+	distinct}
+\item A \textbf{Simple Cycle} is a cycle where all vertices
+except for the first one are distinct and
+there first vertex is taken twice
+\end{itemize}

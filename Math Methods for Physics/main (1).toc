@@ -40,25 +40,4 @@
 \contentsline {subsection}{\numberline {4.8.1}Maximum Flow: Ford-Fulkerson Algorithm}{8}{subsection.4.8.1}%
 \contentsline {section}{\numberline {4.9}Bipartite Graphs}{8}{section.4.9}%
 \contentsline {chapter}{\numberline {5}Probability}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Venn Diagrams}{10}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Probability}{10}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Permutations and Combinations}{10}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Random Variables and Distributions}{10}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Properties of Distributions}{10}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Functions of Random Variables}{10}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Generating Functions}{10}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Important Discrete Distributions}{10}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Important Continuous Distributions}{10}{section.5.9}%
-\contentsline {section}{\numberline {5.10}The Central Limit Theorem}{10}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Joint Distributions}{10}{section.5.11}%
-\contentsline {section}{\numberline {5.12}Properties of Joint Distributions}{10}{section.5.12}%
-\contentsline {section}{\numberline {5.13}Generating Functions for Joint Distributions}{10}{section.5.13}%
-\contentsline {section}{\numberline {5.14}Important Joint Distributions}{10}{section.5.14}%
 \contentsline {chapter}{\numberline {6}Statistics}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Experiments, samples and populations}{11}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Sample Statistics}{11}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Estimators and Sampling Distributions}{11}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Some Basic Estimators}{11}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Maximum-Likelihood Method}{11}{section.6.5}%
-\contentsline {section}{\numberline {6.6}The Method of Least Squares}{11}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Hypothesis Testing}{11}{section.6.7}%

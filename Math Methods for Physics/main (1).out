@@ -40,25 +40,4 @@
 \BOOKMARK [2][-]{subsection.4.8.1}{Maximum Flow: Ford-Fulkerson Algorithm}{section.4.8}% 40
 \BOOKMARK [1][-]{section.4.9}{Bipartite Graphs}{chapter.4}% 41
 \BOOKMARK [0][-]{chapter.5}{Probability}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Venn Diagrams}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Probability}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.3}{Permutations and Combinations}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.4}{Random Variables and Distributions}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.5}{Properties of Distributions}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.6}{Functions of Random Variables}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.7}{Generating Functions}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.8}{Important Discrete Distributions}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.9}{Important Continuous Distributions}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.10}{The Central Limit Theorem}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.11}{Joint Distributions}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.12}{Properties of Joint Distributions}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.13}{Generating Functions for Joint Distributions}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.14}{Important Joint Distributions}{chapter.5}% 56
-\BOOKMARK [0][-]{chapter.6}{Statistics}{}% 57
-\BOOKMARK [1][-]{section.6.1}{Experiments, samples and populations}{chapter.6}% 58
-\BOOKMARK [1][-]{section.6.2}{Sample Statistics}{chapter.6}% 59
-\BOOKMARK [1][-]{section.6.3}{Estimators and Sampling Distributions}{chapter.6}% 60
-\BOOKMARK [1][-]{section.6.4}{Some Basic Estimators}{chapter.6}% 61
-\BOOKMARK [1][-]{section.6.5}{Maximum-Likelihood Method}{chapter.6}% 62
-\BOOKMARK [1][-]{section.6.6}{The Method of Least Squares}{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.7}{Hypothesis Testing}{chapter.6}% 64
+\BOOKMARK [0][-]{chapter.6}{Statistics}{}% 43
