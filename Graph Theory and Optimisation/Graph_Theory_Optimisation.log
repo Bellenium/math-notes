@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  20 NOV 2020 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  21 NOV 2020 09:25
 entering extended mode
 **./Graph_Theory_Optimisation.tex
 (Graph_Theory_Optimisation.tex
@@ -734,17 +734,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1
 
 
- <./Images//1.png>]) [2 <./Images//2.png>]
+ <./Images//1.png>] [2 <./Images//2.png>]) [3]
 \openout2 = `./TeX_files/chapter02.aux'.
 
  (TeX_files/chapter02.tex
+[4
+
+
+
+
+]
 Chapter 2.
-) [3
-
-
-
-
-] [4
+) [5] [6
 
 
 
@@ -755,13 +756,13 @@ ed.
 (rerunfilecheck)             Checksum: DDA8B551A75895E0C138CEF08FB5BD2F;94.
  ) 
 Here is how much of TeX's memory you used:
- 17722 strings out of 480236
- 330267 string characters out of 2886654
- 706460 words of memory out of 3000000
- 33891 multiletter control sequences out of 15000+200000
+ 17725 strings out of 480236
+ 330286 string characters out of 2886654
+ 708492 words of memory out of 3000000
+ 33892 multiletter control sequences out of 15000+200000
  545570 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,8n,88p,506b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,8n,88p,506b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -770,9 +771,9 @@ m1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12
 rary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsl12.pfb><D:/0.Library
 /0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. 
 Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Graph_Theory_Optimisation.pdf (8 pages, 167217 bytes).
+Output written on Graph_Theory_Optimisation.pdf (10 pages, 171147 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  39 words of extra memory for PDF output out of 10000 (max. 10000000)
 

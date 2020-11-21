@@ -1,7 +1,7 @@
 \chapter{Basics}
 \begin{itemize}
 \item A Graph is a set of objects and the relationships between pairs of objects
-\item A Graph $G(V,E)$, is a set of V vertices/nodes and $E$ edges
+\item A Graph $G(V,E)$, is a set of V \textbf{Vertices/nodes} and $E$ \textbf{Edges}
 \end{itemize}
 \begin{figure}[h]
 	\centering
@@ -9,7 +9,7 @@
 \caption{A visual representation of a simple Graph}
 \end{figure}
 \begin{itemize}
-\item For the above figure we 
+\item For the above figure we say that:
 \begin{itemize}
 \item $e$ \textbf{Connects} $u$ and $v$
 \item $u$ and $v$ are \textbf{End Points} of $e$
@@ -19,13 +19,14 @@
 \end{itemize}
 \item Or in set theory lingo as $G(\{u,v\},\{e\})$
 \end{itemize}
-\begin{figure}[h]
+\begin{figure}[h]\label{fig_2}
 	\centering
 	\includegraphics[scale = 0.1]{2.png}
-	\caption{A visual representation of a simple directed Graph}
+	\caption{A visual representation of a simple directed Graph. Here $u$ is called the tail and $v$ the head}
 \end{figure}
 \begin{itemize}
 \item There also exist \textbf{directed Edges/Arcs} i.e. , they describe asymmetric relations
+\item Adding \ref{fig_2} to another directed graph with the same vertices but the edge pointing in the other direction results in a non-directed graph
 \item \textbf{Degree} of a vertex is the number of its incident edges i.e. neighbours denoted by $deg(v)$
 \item The degree of a graph is the maximum degree of its vertices
 \item A \textbf{Regular graph} is a graph where each vertex has the same degree
@@ -44,4 +45,21 @@
 \item A \textbf{Simple Cycle} is a cycle where all vertices
 except for the first one are distinct and
 there first vertex is taken twice
+\item A graph is called \textbf{Connected} if there is a path
+between every pair of its vertices
+\item  A \textbf{Connected Component} of a graph $G$ is a
+maximal connected subgraph of $G$ i.e., a connected subgraph of $G$ which is not
+contained in a larger connected subgraph of $G$
+\item The \textbf{Indegree} of a vertex $v$ is the number of
+edges ending at $v$
+\item The \textbf{Outdegree} of a vertex $v$ is the number of
+edges leaving $v$
+\item A \textbf{Weighted Graph} associates a \textit{weight} with
+every edge
+\item The \textbf{Weight} of a path is the sum of the
+weights of its edges
+\item A \textbf{Shortest Path} between two vertices is a
+path of the minimum weight
+\item The \textbf{Distance} between two vertices is the
+length of a shortest path between them
 \end{itemize}
