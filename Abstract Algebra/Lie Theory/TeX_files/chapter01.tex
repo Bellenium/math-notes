@@ -1,0 +1,72 @@
+\chapter{The First Chapter}
+There is precisely one simply-connected Lie group corresponding
+to each Lie algebra.
+\section{Representation}
+A representation $R$ of a group element $g$ is a one to one map to an element of a vector space i.e. it is homeomorphic.
+$$g \rightarrow R(g)$$
+The following properties are preserved:
+\begin{itemize}
+\item $R(e) = I$
+\item $R(g^{-1}) = (R(g))^{-1}$
+\item $R(g) \circ R(h) = R(gh)$
+\end{itemize}
+A representation identifies with each point (abstract group eement) of the group manifold (the abstract group) a linear transformation of a vector space. Ggenerally if one accepts arbitrary (not linear) transformations of an arbitrary
+(not necessarily a vector) space. Such a map is called a realization. 
+\subsection{Similartiy Transform}
+$$R \rightarrow R^{'} := S^{-1}RS$$
+This means that if we have a representation, we can transform its elements wildly with literally any non-singular matrix $S$ \footnote{$det(s) \neq 0$} to get nicer matrices.
+\subsection{Invariant Subspaces}
+This means, if we have a vector in the subspace $V'$ and we act on it with arbitrary group elements, the transformed
+vector will always be again part of the subspace V'. If we find such an invariant subspace we can define a representation R' of G on V', called a subrepresentation of R, by
+$$R'(g)v = R'(g)v$$
+This means that the representation R is actually composed of smaller building blocks called subrepresentations.
+\subsection{Irreducible Representation}
+An irrep  is a rep of a Group $G$ on a vector space $V$ that has no invariant subspaces other than $\{ 0 \}$ and $V$ itself.\\
+There are many possible representations for each group 86 , how do
+we know which one to choose to describe nature? There is an idea
+that is based on the Casimir elements. A Casimir element $C$ is built
+from generators of the Lie algebra and its defining feature is that it
+commutes with every generator $X$ of the group.
+\begin{equation}
+	[C, X ] = 0
+\end{equation}
+A famous Lemma, called Schur’s Lemma tells us that if we have an irreducible representation,
+$R: \mathfrak{g} \rightarrow GL(V)$, any linear operator $T: V \rightarrow V$ that commutes with all operators $R(X)$ must be a scalar multiple of the identity operator. Therefore,
+the Casimir elements give us linear operators with constant values for each representation. As we will see, these values provide us with
+a way of labelling representations naturally. 88 We can therefore start
+to investigate the irreducible representations, by starting with the
+representation with the lowest possible scalar value for the Casimir
+element.\\
+
+An irreducible representation cannot be rewritten, using a similarity
+transformation, in block diagonal form 84 . In contrast, a reducible
+representation can be rewritten in block-diagonal form through sim-
+ilarity transformations. These notions are important because we use
+irreducible representations to describe elementary particles 85 . We will
+see later that the behavior of elementary particles under transforma-
+tions is described by irreducible representations of the corresponding
+symmetry group.\\
+ An important observation
+that helps us to make sense of the vector space, is that for any Lie
+group, one or several of the corresponding generators can be diag-
+onalized using similarity transformations. In physics we use these
+diagonal generators to get labels for the basis vectors that span our
+vector space. We use the eigenvectors of these diagonal generators
+as basis for our vector space and the corresponding eigenvalues as
+labels. This idea is incredibly important to actually understand the
+physical implications of a given group. If there is just one gener-
+ator that can be diagonalized simultaneously, each basis vector is
+labelled by just one number: the corresponding eigenvalue. If there
+are several generators that can be diagonalized simultaneously, we
+get several numbers as labels for each basic vector. Each such number
+is simply the eigenvalue of a given diagonal generator that belongs
+to this basic vector (=eigenvector). In particular this is where the
+"charge labels" for elementary particles: electric charge, weak charge,
+color charge, come from. 
+
+\section{Poincare Group}
+The Poincare Group = Lorentz Group + Translations in time and space
+$$ = \mathbb{R}^{1,3} \rtimes ISO(1,3)^{\uparrow}$$
+
+
+

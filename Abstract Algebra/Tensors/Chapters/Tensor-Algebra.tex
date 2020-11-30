@@ -1,0 +1,308 @@
+\chapter{Tensor-Algebra}
+\section{Vector Transformation Rules}
+The rules:
+\begin{itemize}
+	\item For basis vectors forward transformations brings us from old to new coordinate systems and backward brings us from new to old.
+	\item However, with vector components it's the opposite.\\
+\end{itemize}
+
+Suppose we have a vector $\vec{v}$ in a basis $\vec{e}_j$. We now transform it to a basis $\tilde{\vec{e}}_i$ where it becomes $\tilde{v}$. We call the forward transformation as $F_{ij}$ and the backward as $B_{ij}$\footnote{We will follow this notation throughout this document} which we define as:
+$$\tilde{\vec{e}}_j = \sum_{i = 1}^{n} F_{ji} \vec{e}_i$$
+$$\vec{e}_j = \sum_{i = 1}^{n} B_{ji} \tilde{\vec{e}}_i$$
+We can try to derive the statements made previously,
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{i = 1}^{n} \tilde{v}_{i}\tilde{\vec{e}}_i$$
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{j = 1}^{n} {v}_{j}(\sum_{i=1}^{n} B_{ij} \tilde{\vec{e}}_i) =  \sum_{i = 1}^{n} \sum_{j = 1}^{n} (B_{ij} {v}_{j}) \tilde{\vec{e}}_i$$
+Thus,
+\begin{equation}
+\tilde{v}_i = \sum_{j = 1}^{n} B_{ij} {v}_{j}
+\end{equation}
+Similarly,
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{i = 1}^{n} \tilde{v}_{i}\tilde{\vec{e}}_i$$
+$$\vec{v} = \sum_{j = 1}^{n} \tilde{v}_{j}\tilde{\vec{e}}_j = \sum_{j = 1}^{n} \tilde{v}_{j}(\sum_{i = 1}^{n} F_{ij} \vec{e}_i) =  \sum_{i = 1}^{n} \sum_{j = 1}^{n} (F_{ij} \tilde{v}_{j}) {\vec{e}}_i$$
+Thus,
+\begin{equation}
+{v}_i = \sum_{j = 1}^{n} F_{ij} \tilde{v}_{j}
+\end{equation}
+Now because vector components beehave contrary to the basis vectors, they are said to be \textit{\textbf{"Contravariant"}}
+\section{Index Notation}
+\subsection{Einstein Notation i.e. Summing convention}
+Let us consider the sum\footnote{Mind you there are no exponents there.},
+$$x_{i} = \sum_{j}^{n}\Lambda_{ij}\mathcal{X}^{j}$$
+Is the same as,
+$$x_{i} = \Lambda_{ij}\mathcal{X}^{j}$$ 
+Here, we define $i$ to be the free index and $j$ to be the summing index or the dummy index that is repeated to signify so.
+\subsection{Index Convention}
+When we sum from $1$ to $3$ we use the symbols $i,j$ and $k$ i.e. the English alphabet to signify that we are only considering dimnesions that are spatial/that are not a timme dimension. However, when we use the symbols $\nu$ and $\mu$ i.e. Greek alphabets we are summing from 0 to 3, we also include the temporal dimension according to the tradition of special relativity in which we name components as $\{x^{0}, x^{1}, x^{2}, x^{3}\} = \{t, x, y, z\}$ in the Cartesian framework.
+
+\section{Covectors}
+\begin{itemize}
+	\item Covectors can be thought of as row vector or as functions that act on Vectors such that any covector $\alpha : \mathbb{V} \rightarrow \mathbb{R}$
+	\item Covectors are linear maps i.e. $ \beta ( \alpha ) \vec{v} = \beta \alpha \vec{v}$ and $(\beta + \alpha ) \vec{v} = \alpha \vec{v} + \beta \vec{v}$
+	\item Covectors are elements of a Dual vector space $\mathbb{V}^*$ which has different rules for addition and scaling i.e. scalar multiplication
+	\item You visualize covectors to be some sort of gridline on your vector space such that applying a covector to a vector is equivalent to projecting the vector along the gridline
+	\item Covectors are invariant but their components are not
+	\item The covectors that form the basis for the set of all covectors is called the \textit{\textbf{"Dual Basis"}}, because they are a basis for the Dual Space $\mathbb{V}^*$ i.e. any covector can be expressed as the linear combination of the dual basis
+	\item However we are free to choose a dual basis
+	\item For covector components, forward transformation brings us from old to new and backwards vice versa
+	\item We can flip between row and column vectors for an orthonormal basis
+	\item Vector components are measured by counting how many are used in the construction of a vector, but covector components are measured by counting the number of covector lines that the basis vector pierces
+	\item The covector basis transforms contravariantly compared to the basis and it's components transform covariantly according to the basis 
+	\item The covector basis is denoted as $\epsilon^{j}$
+\end{itemize}
+
+
+\subsection{Contravariant Components}
+We denote contravariant components using the symbols
+$$A^i$$
+and their basis like
+$$\overrightarrow{e}_i$$
+\subsection{Covariant Components}
+We denote convariant components using the symbols
+$$A_i$$
+and their basis like
+$${\overrightarrow{e}}^i$$
+\subsection{Relationship Between the Two Types of Components}
+
+$$|\overrightarrow{e}^1| = \frac{1}{|\overrightarrow{e}_1|\cos(\theta_1)}$$
+and,
+$$|\overrightarrow{e}_1| = \frac{1}{|\overrightarrow{e}^1|\cos(\theta_1)}$$
+Or with 3 components we have:
+Since both types of components represent the same vector (as in same magnitude) only inn  different bases, we can write
+$$\overrightarrow{A} = A^{i}\overrightarrow{e}_i = A_{i}\overrightarrow{e}^i$$
+\subsection{Using Cramer's Method to find Components}
+Camer's rule involves
+\begin{itemize}
+	\item First find the simultaneous equations  that relate the two different types of basis
+	\item  Now rewrite them in matrix form\\
+	\begin{equation}
+	\begin{bmatrix}
+	x_{1}\\
+	x_{2}
+	\end{bmatrix} = 
+	\begin{bmatrix}
+	M_{11} & M_{12} \\
+	M_{21} & M_{22}
+	\end{bmatrix} \begin{bmatrix}
+	A_{1} \\
+	A_{2}
+	\end{bmatrix}
+	\end{equation}
+	\item Use Cramer's rule \\
+	\begin{equation}
+	A_{1} = \frac{\begin{vmatrix}
+		x_{1} & M_{12}\\
+		x_{2} & M_{22}
+		\end{vmatrix}}{\begin{vmatrix}
+		M_{11} & M_{12} \\
+		M_{21} & M_{22}
+		\end{vmatrix}}
+	\end{equation}
+	\begin{equation}
+	A_{2} = \frac{\begin{vmatrix}
+		M_{11} & x_{1}\\
+		M_{21} & x_{2}
+		\end{vmatrix}}{\begin{vmatrix}
+		M_{11} & M_{12} \\
+		M_{21} & M_{22}
+		\end{vmatrix}}
+	\end{equation}
+\end{itemize}
+
+
+\section{Linear Maps}
+Linear maps to put it naively, Linear Maps transform input vectors but not the basis. Geometrically speaking, Linear Maps:
+\begin{itemize}
+	\item Keep gridlines parallel
+	\item Keep gridlines evenly spaced
+	\item Keep the origin stationary
+\end{itemize}
+To put it more abstractly, Linear Maps:
+\begin{itemize}
+	\item Maps vectors to vectors, $\mathbb{L}: \mathbb{V} \rightarrow \mathbb{V}$
+	\item Adds inputs or outputs, $\mathbb{L}(\vec{V} + \vec{W}) = \mathbb{L}(\vec{V}) + \mathbb{L}(\vec{W})$
+	\item Scale the inputs or outputs, $\mathbb{L}(\alpha \vec{V}) = \alpha \mathbb{L}(\vec{V})$
+	\item i.e. They are Linear/Linearity
+	\item When I transform the basis using a forward transformation, the transformed Linear map $\tilde{\mathbb{L}^{l}_{i}}$ can be written as:
+\end{itemize}
+
+\begin{equation}
+\tilde{\mathbb{L}^{l}_{i}} = \mathbb{B}^{l}_{k} \mathbb{L}^{k}_{j} \mathbb{F}^{j}_{i}
+\end{equation}
+
+\section{Metric Tensor}
+\begin{itemize}
+	\item Pythagoras' theorem is a lie for non-orthonormal bases
+	\item The metric Tensor is Tensor that helps us compute lengths and angles
+	\item For two dimensions it can be written as:
+\end{itemize}
+$$\textit{g}_{ij} = \begin{bmatrix}
+e_{1}e_{1} & e_{1}e_{2} \\
+e_{2}e_{1} & e_{2}e_{2} 
+\end{bmatrix}$$
+\begin{itemize}
+	\item Or more abstractly
+\end{itemize}
+$$\textit{g}_{ij} = e_{i}e_{j}$$
+\begin{itemize}
+	\item Or,
+\end{itemize}
+$$\textit{g} = \textit{g}_{ij}(\epsilon^{i} \otimes \epsilon^{j})$$
+\begin{itemize}
+	\item The dot product between two vectors can be written as
+\end{itemize}
+$$||\vec{v}|| ||\vec{w}||\cos{\theta} = v^{i}w^{j}\textit{g}_{ij}$$
+\begin{itemize}
+	\item we can see how this allows us to compute angles as well
+	\item Moreover this formula works in all coordinates thus, the vector length stays constant
+	\item To transform the components of the Metric Tensor we have to apply the transformation twice i.e.$g_{\mu \nu} = \mathbb{F}^{\rho}_{\mu} \mathbb{F}^{\sigma}_{\nu}\tilde{g}_{\rho \sigma}$ or $\tilde{g}_{\rho \sigma} = \mathbb{B}^{\mu}_{\rho} \mathbb{B}^{\nu}_{\sigma}g_{\mu \nu}$
+	\item $\alpha g(\vec{V}, \vec{W}) = g(\alpha\vec{V}, \vec{W}) =  g(\vec{V}, \alpha\vec{W})$
+	\item $g(\vec{V} + \vec{U}, \vec{W}) = g(\vec{V}, \vec{W}) + g(\vec{U}, \vec{W})$
+	\item $\alpha(\vec{V} + \vec{U})g = \alpha\vec{V}g + \alpha\vec{U}g$
+	\item $g(\vec{V}, \vec{W}) = V^{i}W^{j}g_{ij} = V^{i}W^{j}g_{ji} = g(\vec{W}, \vec{V})$
+	\item $g(\vec{V}, \vec{V}) = ||\vec{V}||^{2} \geq 0 \ \forall \ \vec{V} \neq 0$
+	\item In short, $g := \mathbb{V} \cross \mathbb{V} \rightarrow \mathbb{R}$
+	\item We can define a new quantity called \textit{\textbf{"Scale-Factor"}} as, $h_{i} = \sqrt{g_{ii}}$
+	\item Through this we can rewrite some of the Operators from Vector Calculus:
+	\begin{itemize}
+		\item Gradient: $\nabla \phi = \frac{1}{h_{1}}\frac{\partial \phi}{\partial x^{1}}\hat{e}_{1} + \frac{1}{h_{2}}\frac{\partial \phi}{\partial x^{2}}\hat{e}_{2} + \frac{1}{h_{3}}\frac{\partial \phi}{\partial x^{3}}\hat{e}_{3}$
+		\item Divergence: $\nabla \circ \vec{A} = \frac{1}{{h}_{1}{h}_{2}{h}_{3}} \left[\frac{\partial}{\partial x^{1}}(h_{2}h_{3}A_{1}) + \frac{\partial}{\partial x^{2}}(h_{1}h_{3}A_{2}) + \frac{\partial}{\partial x^{3}}(h_{1}h_{2}A_{3}) \right]$
+		\item Curl: $\nabla \cross \vec{A} = \frac{1}{{h}_{1}{h}_{2}{h}_{3}} \begin{vmatrix}
+		h_{1}\hat{e}_{1} & h_{2}\hat{e}_{2} & h_{3}\hat{e}_{3}\\
+		\frac{\partial }{\partial x^{1}} & \frac{\partial }{\partial x^{2}} & \frac{\partial }{\partial x^{3}}\\
+		h_{1}{A}_{1} & h_{2}{A}_{2} & h_{3}{A}_{3}
+		\end{vmatrix}$
+		\item Laplacian:$\laplacian{\phi} = \frac{1}{{h}_{1}{h}_{2}{h}_{3}}\left[\frac{\partial}{\partial x^{1}} \left( \frac{h_{2}h_{3}}{h_{1}} \frac{\partial \phi}{\partial x^{1}}\right) + \frac{\partial}{\partial x^{2}} \left( \frac{h_{1}h_{3}}{h_{2}} \frac{\partial \phi}{\partial x^{2}}\right) + \frac{\partial}{\partial x^{3}} \left( \frac{h_{1}h_{2}}{h_{3}} \frac{\partial \phi}{\partial x^{3}}\right) \right]$
+	\end{itemize}
+\end{itemize}
+
+\section{Bilinear Forms}
+\begin{itemize}
+	\item The metric tensor is an example of a Bilinear form
+	\item We define a Bilinear form as:
+	\begin{itemize}
+		\item $\mathcal{B} : = \mathbb{V} \cross \mathbb{V} \rightarrow \mathbb{R}$
+		\item $\alpha \mathcal{B}(\vec{V}, \vec{W}) = \mathcal{B}(\alpha\vec{V}, \vec{W}) =  \mathcal{B}(\vec{V}, \alpha\vec{W})$
+		\item $\mathcal{B}(\vec{V} + \vec{U}, \vec{W}) = \mathcal{B}(\vec{V}, \vec{W}) + \mathcal{B}(\vec{U}, \vec{W})$
+		\item $\alpha(\vec{V} + \vec{U})\mathcal{B} = \alpha\vec{V}\mathcal{B} + \alpha\vec{U}\mathcal{B}$
+		\item $\mathcal{B}(\vec{V}, \vec{U}) \rightarrow V^{i}W^{j}\mathcal{B}_{ij}$
+	\end{itemize}
+	\item Bilinear forms are (0,2) Tensors, they transform using two covariant rules when we transform them
+	\item A form is simply a function that takes vectors as inputs and outputs a number
+	\item So covectors are sometimes called Linear forms/ 1-forms
+	\item This structure is called a Bilinear form since each individual input is Linear while the other input is held constant
+	\item $\mathcal{B}_{\mu \nu} = \mathbb{F}^{\rho}_{\mu} \mathbb{F}^{\sigma}_{\nu}\tilde{\mathcal{B}}_{\rho \sigma}$ and $\tilde{\mathcal{B}}_{\rho \sigma} = \mathbb{B}^{\mu}_{\rho} \mathbb{B}^{\nu}_{\sigma}\mathcal{B}_{\mu \nu}$
+	\item $\mathcal{B}(\vec{V}, \vec{W}) = \mathcal{B}_{\mu \nu}V^{\mu}W^{\nu} = \begin{bmatrix}
+	\begin{bmatrix}
+	\mathcal{B}_{11} & \mathcal{B}_{12}
+	\end{bmatrix} & \begin{bmatrix}
+	\mathcal{B}_{21} & \mathcal{B}_{22}
+	\end{bmatrix}
+	\end{bmatrix} \begin{bmatrix}
+	v_{1}\\
+	v_{2}
+	\end{bmatrix} \begin{bmatrix}
+	w_{1}\\
+	w_{2}
+	\end{bmatrix}$
+\end{itemize}
+
+
+\section{Clearer Definitions}
+\subsection{Linear Maps}
+\begin{itemize}
+\item A Tensor is a collection of vectors and covectors combined together using the Tensor Product
+\item Pure Matrices can be broken down into the product of row and column matrices. 
+\item Each element of the same column in a pure matrix is a scalar product of each other
+\item Pure matrices as Linear maps only produce output vectors in the same direction due to the previous statement
+\item Any linear map $\mathbb{L}$ can be written as the Linear combination of the product of Vector-Co-vector pairs i.e. $\mathbb{L} = \mathbb{L}^{\mu}_{\nu} \vec{e}_{\mu}\epsilon^{\nu} := \mathbb{V} \rightarrow \mathbb{V}$
+\item Reminder: $\epsilon^{i} \otimes\footnote{This symbol represents the Tensor product, see for more information} \vec{e}_{j} = \delta^{i}_{j}$
+\end{itemize}
+\subsection{Bilinear Forms}
+\begin{itemize}
+\item Bilinear forms are a Linear combination of covector-covector pairs
+\item $\mathcal{B} = \mathcal{B}_{ij}(\epsilon^{i} \otimes \epsilon^{j})$
+\end{itemize}
+\subsection{Tensors}
+\begin{itemize}
+\item An object that is invriant under a change of coordinates and has components that change in a special and predictable way under a change of coordinates.
+\item A collection of vectors and covectors combined using the Tensor Product
+\item For a tensor $T^{i_{m}}_{j_{n}}$, we say it has a type $(m,n)$ and rank $m+n$
+\end{itemize}
+\section{Tensor Addition and Subtraction}
+\begin{itemize}
+\item Two tensors can be added provided they have the same structure i.e. the same number of vectors and covectors
+\item The resultant of tensor addition or subtraction is another tensor with the same structure i.e. $A^{i}_{j} \pm B^{i}_{j} = C^{i}_{j}$
+\end{itemize}
+
+\section{Tensor Products}
+\begin{itemize}
+	\item The Tensor product and the Kronecker product are kind of doing the same thing, the Tensor product combines the abstract vector and the abstract covector and the Kronecker product combines 1 dimensional arrays
+	\item However both products result in the same set of components
+\end{itemize}
+\subsection{Tensor Product}
+\begin{itemize}
+\item Combines 2 Tensors into a 3rd new Tensor
+\item The result is a Linear map
+\item Eg: $(\vec{e}_{i} \otimes \epsilon^{j})\vec{v} = v^{j}\vec{e}_{i}$
+\item $(\epsilon^{j} \otimes \epsilon^{j})(\vec{v}, \vec{w}) = \epsilon^{i}(\vec{v})\epsilon^{j}(\vec{w})$
+\end{itemize}
+\subsection{Kronecker Product}
+\begin{itemize}
+\item Combines 2 arrays into a 3rd new array
+\item Eg:-  $\begin{bmatrix}V^{1} \\
+V^{2} \end{bmatrix} \otimes \begin{bmatrix}\alpha_{1} &
+\alpha_{2} \end{bmatrix} = \begin{bmatrix}
+\alpha_{1} \begin{bmatrix}V^{1} \\
+V^{2} \end{bmatrix} & \alpha_{2} \begin{bmatrix}V^{1} \\
+V^{2} \end{bmatrix}
+\end{bmatrix}$
+\end{itemize}
+\subsection{Array Multiplication}
+$\begin{bmatrix}
+W^{1}\\
+W^{2}
+\end{bmatrix} = \begin{bmatrix}
+\begin{bmatrix}
+L^{1}_{1} \\
+L^{2}_{1}
+\end{bmatrix} & \begin{bmatrix}
+L^{1}_{2} \\
+L^{2}_{2}
+\end{bmatrix}
+\end{bmatrix} \begin{bmatrix}
+V^{1}\\
+V^{2}
+\end{bmatrix} = \begin{bmatrix}
+L^{1}_{1} V^{1} + L^{1}_{2} V^{2}\\
+L^{2}_{1} V^{1} + L^{2}_{2} V^{2}
+\end{bmatrix}$
+\begin{itemize}
+\item This method isn't very useful for higher dimensional tensors, for them we stick to Einstein notation as the larger number of components, the more number of ways we can do the summation
+\end{itemize}
+\subsection{Tensor Product Spaces}
+We have the following properties for a Tensor product $\forall \ \vec{U},\vec{V},\vec{W} \in \mathbb{V}$, $\forall \ \alpha, \beta \in \mathbb{V}^{*}$ and $\forall \ n \in \mathcal{F}$
+\begin{itemize}
+\item $n(\vec{V} \otimes \alpha) = (n\vec{V}) \otimes \alpha = \vec{V} \otimes (n\alpha)$ Here, n is a scalar and $\alpha$ a covector
+\item $\vec{V} \otimes \alpha + \vec{V} \otimes \beta = \vec{V}\otimes(\alpha + \beta)$
+\item $\vec{V} \otimes \alpha + \vec{W} \otimes \alpha = (\vec{V} + \vec{W}) \otimes \alpha$
+\item $\vec{U}\alpha\vec{V} \otimes \vec{U}\beta\vec{V} = \vec{U}(\alpha \otimes \beta)\vec{V}$
+\item $\mathbb{V} \otimes \mathbb{V}^{*} := \mathbb{V} \cross \mathbb{V}^{*} \rightarrow \mathbb{R} $ for example, whose elements are (1,1) Tensors
+\item We can always do the summation differently and end up with different elements even if the map leads us to the same space
+\item We can combine any number of tensors provided the upstairs indices match the downstairs indices across the product 
+\item For example,$T^{j}_{i} {}_{kl} \alpha_{j}D^{kl} := \mathbb{V}^{*} \cross (\mathbb{V} \otimes \mathbb{V}) \rightarrow \mathbb{V}^{*}$
+\item You can guess where the output of the operation by finding out where the free index lies
+\item \textbf{Multilinear map}, a function that's linear when all inputs except one are held constant
+\item A Tensor when used as a function is simply a Multilinear map
+\end{itemize}
+
+\section{Raising and Lowering Indices}
+\begin{itemize}
+\item To go from the vector space to the dual space we use the covariant metric $g_{ij}$ i.e. this lowers the indices. Thus they are sometimes denoted using the symbol $\flat$ and called "flat operators"
+\item To go from the dual space to the vector space we use the contravariant metric $\mathfrak{g}^{ij}$ i.e. this raises the indices. Thus they are sometimes denoted using the symbol $\sharp$ and called "sharp operators"
+\item These matrices are inverses of each other i.e. $g_{ki} \mathfrak{g}^{ij} = \delta^{k}_{i}$
+\end{itemize}
+
+
+
+
+

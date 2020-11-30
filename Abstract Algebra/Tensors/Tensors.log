@@ -1,0 +1,817 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  1 AUG 2020 15:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Tensors.tex
+(./Tensors.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/artic
+le.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/size1
+0.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/lipsum/lip
+sum.sty
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3kernel/e
+xpl3.sty
+Package: expl3 2020-05-15 L3 programming layer (loader) 
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3backend/
+l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count175
+\l__pdf_internal_box=\box45
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3packages
+/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3packages
+/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count176
+\g__xparse_grabber_int=\count177
+\l__xparse_m_args_int=\count178
+\l__xparse_v_nesting_int=\count179
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/lipsum/lip
+sum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
+smath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
+stext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
+sgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
+sbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
+sopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count180
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count181
+\leftroot@=\count182
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count183
+\DOTSCASE@=\count184
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count185
+\c@MaxMatrixCols=\count186
+\dotsspace@=\muskip16
+\c@parentequation=\count187
+\dspbrk@lvl=\count188
+\tag@help=\toks16
+\row@=\count189
+\column@=\count190
+\maxfields@=\count191
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/a
+mssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/a
+msfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/physics/ph
+ysics.sty
+Package: physics 
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/tcolorbox/
+tcolorbox.sty
+Package: tcolorbox 2020/04/28 version 4.30 text color boxes
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/basicl
+ayer/pgf.sty
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/utilit
+ies/pgfrcs.sty
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfutil-common-lists.tex))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfutil-latex.def
+\pgfutil@abb=\box48
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/ms/everysh
+i.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfrcs.code.tex
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/pgf.
+revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/basicl
+ayer/pgfcore.sty
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/g
+raphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/k
+eyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/g
+raphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/t
+rig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics-c
+fg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics-d
+ef/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/system
+layer/pgfsys.sty
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
+ities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\pgf@xd=\dimen156
+\pgf@yd=\dimen157
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count196
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count197
+\pgfsyssoftpath@bigbuffer@items=\count198
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
+emlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/xcolor/xco
+lor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics-c
+fg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmath.code.tex
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathcalc.code.tex
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathutil.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count199
+\pgfmath@box=\box49
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.code.tex
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.basic.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.trigonometric.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.random.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.comparison.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.base.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.round.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.misc.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfunctions.integerarithmetics.code.tex)))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count266
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
+/pgfint.code.tex)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen159
+\pgf@picmaxx=\dimen160
+\pgf@picminy=\dimen161
+\pgf@picmaxy=\dimen162
+\pgf@pathminx=\dimen163
+\pgf@pathmaxx=\dimen164
+\pgf@pathminy=\dimen165
+\pgf@pathmaxy=\dimen166
+\pgf@xx=\dimen167
+\pgf@xy=\dimen168
+\pgf@yx=\dimen169
+\pgf@yy=\dimen170
+\pgf@zx=\dimen171
+\pgf@zy=\dimen172
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen173
+\pgf@path@lasty=\dimen174
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen175
+\pgf@shorten@start@additional=\dimen176
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count267
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen177
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen178
+\pgf@pt@y=\dimen179
+\pgf@pt@temp=\dimen180
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen181
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen182
+\pgf@sys@shading@range@num=\count268
+\pgf@shadingcount=\count269
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box53
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
+clayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/modu
+les/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box54
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/modu
+les/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/compat
+ibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen183
+\pgf@nodesepend=\dimen184
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/compat
+ibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/tools/verb
+atim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks31
+\verbatim@line=\toks32
+\verbatim@in@stream=\read3
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/environ/en
+viron.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/trimspaces
+/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/etoolbox/e
+toolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
+)
+\tcb@titlebox=\box55
+\tcb@upperbox=\box56
+\tcb@lowerbox=\box57
+\tcb@phantombox=\box58
+\c@tcbbreakpart=\count271
+\c@tcblayer=\count272
+\c@tcolorbox@number=\count273
+\tcb@temp=\box59
+\tcb@temp=\box60
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/h
+yperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/ltxcmds/
+ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/iftex/if
+tex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pdftexcmds
+/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/infwarer
+r/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/kvsetkey
+s/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/kvdefine
+keys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pdfescap
+e/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hycolor/hy
+color.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/letltxmacr
+o/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/auxhook/au
+xhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/kvoptions/
+kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen185
+\Hy@linkcounter=\count274
+\Hy@pagecounter=\count275
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/p
+d1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/intcalc/
+intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/etexcmds
+/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count276
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count277
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/url/url.st
+y
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen186
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/bitset/b
+itset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/bigintca
+lc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count278
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/atbegshi
+/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/h
+pdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/atveryend/
+atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/rerunfilec
+heck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/uniqueco
+unter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/mathtools/
+mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/tools/calc
+.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count286
+\calc@Cskip=\skip55
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/mathtools/
+mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count287
+\l_MT_multwidth_dim=\dimen191
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen192
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen193
+\l_MT_above_intertext_sep=\dimen194
+\l_MT_below_intertext_sep=\dimen195
+\l_MT_above_shortintertext_sep=\dimen196
+\l_MT_below_shortintertext_sep=\dimen197
+\xmathstrut@box=\box63
+\xmathstrut@dim=\dimen198
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/booktabs/b
+ooktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen199
+\lightrulewidth=\dimen256
+\cmidrulewidth=\dimen257
+\belowrulesep=\dimen258
+\belowbottomsep=\dimen259
+\aboverulesep=\dimen260
+\abovetopsep=\dimen261
+\cmidrulesep=\dimen262
+\cmidrulekern=\dimen263
+\defaultaddspace=\dimen264
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen265
+\@belowrulesep=\dimen266
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen267
+) (./Tensors.aux)
+\openout1 = `Tensors.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+ ABD: EveryShipout initializing macros
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/context/base/mki
+i/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen268
+\scratchbox=\box64
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen269
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks34
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/epstopdf-p
+kg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/latexconfi
+g/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box65
+Package hyperref Info: Link coloring OFF on input line 19.
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/n
+ameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/refcount/r
+efcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/gettitle
+string/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count298
+)
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+ (./Tensors.out) (./Tensors.out)
+\@outlinefile=\write6
+\openout6 = `Tensors.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/u
+msa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+
+
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/u
+msb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[1
+
+{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-var/fonts/map/pdftex/updm
+ap/pdftex.map}] [2] [3] [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+ (./Tensors.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package rerunfilecheck Info: File `Tensors.out' has not changed.
+(rerunfilecheck)             Checksum: 3FC3FA593C6B9364B00667A118AE2420;966.
+ ) 
+Here is how much of TeX's memory you used:
+ 17843 strings out of 480476
+ 340697 string characters out of 5888293
+ 680770 words of memory out of 5000000
+ 33501 multiletter control sequences out of 15000+600000
+ 542238 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,14n,75p,875b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-ts1.enc}<d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/0.Library/0. Software/TeX Liv
+e/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/0.Librar
+y/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbxti10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><d:/0.Library/0. Software/TeX Live/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/0.Library/0. Softwa
+re/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d
+:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software/TeX Live/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/0.Library/0. S
+oftware/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/0.Library/0. Software/TeX Live/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/0.Library/0
+. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/0.Library/0. Softwar
+e/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Tensors.pdf (5 pages, 171675 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+

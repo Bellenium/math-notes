@@ -1,0 +1,150 @@
+\documentclass[]{article}
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%opening
+\title{Tensors}
+\author{Pugazharasu A D}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+\section{Vector Transformation Rules}
+The rules:
+\begin{itemize}
+	\item For basis vectors forward transformations brings us from old to new coordinate systems and backward brings us from new to old.
+	\item However, with vector components it's the opposite.\\
+\end{itemize}
+
+Suppose we have a vector $\vec{v}$ in a basis $\vec{e}_j$. We now transform it to a basis $\tilde{\vec{e}}_i$ where it becomes $\tilde{v}$. We call the forward transformation as $F_{ij}$ and the backward as $B_{ij}$ which we define as:
+$$\tilde{\vec{e}}_j = \sum_{i = 1}^{n} F_{ij} \vec{e}_i$$
+$$\vec{e}_j = \sum_{i = 1}^{n} B_{ij} \tilde{\vec{e}}_i$$
+We can try to derive the statements made previously,
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{i = 1}^{n} \tilde{v}_{i}\tilde{\vec{e}}_i$$
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{j = 1}^{n} {v}_{j}(\sum_{i=1}^{n} B_{ij} \tilde{\vec{e}}_i) =  \sum_{i = 1}^{n} \sum_{j = 1}^{n} (B_{ij} {v}_{j}) \tilde{\vec{e}}_i$$
+Thus,
+\begin{equation}
+	\tilde{v}_i = \sum_{j = 1}^{n} B_{ij} {v}_{j}
+\end{equation}
+Similarly,
+$$\vec{v} = \sum_{j = 1}^{n} v_{j}\vec{e}_j = \sum_{i = 1}^{n} \tilde{v}_{i}\tilde{\vec{e}}_i$$
+$$\vec{v} = \sum_{j = 1}^{n} \tilde{v}_{j}\tilde{\vec{e}}_j = \sum_{j = 1}^{n} \tilde{v}_{j}(\sum_{i = 1}^{n} F_{ij} \vec{e}_i) =  \sum_{i = 1}^{n} \sum_{j = 1}^{n} (F_{ij} \tilde{v}_{j}) {\vec{e}}_i$$
+Thus,
+\begin{equation}
+	{v}_i = \sum_{j = 1}^{n} F_{ij} \tilde{v}_{j}
+\end{equation}
+Now because vector components beehave contrary to the basis vectors, they are said to be \textit{\textbf{"Contravariant"}}
+\section{Index Notation}
+\subsection{Einstein Notation i.e. Summing convention}
+Let us consider the sum\footnote{Mind you there are no exponents there.},
+$$x_{i} = \sum_{j}^{n}\Lambda_{ij}\mathcal{X}^{j}$$
+Is the same as,
+$$x_{i} = \Lambda_{ij}\mathcal{X}^{j}$$ 
+Here, we define $i$ to be the free index and $j$ to be the summing index or the dummy index that is repeated to signify so.
+\subsection{Index Convention}
+When we sum from $1$ to $3$ we use the symbols $i,j$ and $k$ i.e. the English alphabet to signify that we are only considering dimnesions that are spatial/that are not a timme dimension. However, when we use the symbols $\nu$ and $\mu$ i.e. Greek alphabets we are summing from 0 to 3, we also include the temporal dimension according to the tradition of special relativity in which we name components as $\{x^{0}, x^{1}, x^{2}, x^{3}\} = \{t, x, y, z\}$ in the Cartesian framework.
+
+\section{Covectors}
+\begin{itemize}
+	\item Covectors can be thought of as row vector or as functions that act on Vectors such that any covector $\alpha : \mathbb{V} \rightarrow \mathbb{R}$
+	\item Covectors are linear maps i.e. $ \beta ( \alpha ) \vec{v} = \beta \alpha \vec{v}$ and $(\beta + \alpha ) \vec{v} = \alpha \vec{v} + \beta \vec{v}$
+	\item Covectors are elements of a Dual vector space $\mathbb{V}^*$ which has different rules for addition and scaling i.e. scalar multiplication
+	\item You visualize covectors to be some sort of gridline on your vector space such that applying a covector to a vector is equivalent to projecting the vector along the gridline
+	\item Covectors are invariant but their components are not
+	\item The covectors that form the basis for the set of all covectors is called the \textit{\textbf{"Dual Basis"}}, because they are a basis for the Dual Space $\mathbb{V}^*$ i.e. any covector can be expressed as the linear combination of the dual basis
+	\item However we are free to choose a dual basis
+	\item For covector components, forward transformation brings us from old to new and backwards vice versa
+	\item We can flip between row and column vectors for an orthonormal basis
+	\item Vector components are measured by counting how many are used in the construction of a vector, but covector components are measured by counting the number of covector lines that the basis vector pierces
+	\item The covector basis transforms contravariantly compared to the basis and it's components transform covariantly according to the basis 
+\end{itemize}
+
+
+\subsection{Contravariant Components}
+We denote contravariant components using the symbols
+$$A^i$$
+and their basis like
+$$\overrightarrow{e}_i$$
+\subsection{Covariant Components}
+We denote convariant components using the symbols
+$$A_i$$
+and their basis like
+$${\overrightarrow{e}}^i$$
+\subsection{Relationship Between the Two Types of Components}
+
+$$|\overrightarrow{e}^1| = \frac{1}{|\overrightarrow{e}_1|\cos(\theta_1)}$$
+and,
+$$|\overrightarrow{e}_1| = \frac{1}{|\overrightarrow{e}^1|\cos(\theta_1)}$$
+Or with 3 components we have:
+Since both types of components represent the same vector (as in same magnitude) only inn  different bases, we can write
+$$\overrightarrow{A} = A^{i}\overrightarrow{e}_i = A_{i}\overrightarrow{e}^i$$
+\subsection{Using Cramer's Method to find Components}
+\section{Linear Maps}
+Linear maps to put it naively, Linear Maps transform input vectors but not the basis. Geometrically speaking, Linear Maps:
+\begin{itemize}
+	\item Keep gridlines parallel
+	\item Keep gridlines evenly spaced
+	\item Keep the origin stationary
+\end{itemize}
+To put it more abstractly, Linear Maps:
+\begin{itemize}
+	\item Maps vectors to vectors, $\mathbb{L}: \mathbb{V} \rightarrow \mathbb{V}$
+	\item Adds inputs or outputs, $\mathbb{L}(\vec{V} + \vec{W}) = \mathbb{L}(\vec{V}) + \mathbb{L}(\vec{W})$
+	\item Scale the inputs or outputs, $\mathbb{L}(\alpha \vec{V}) = \alpha \mathbb{L}(\vec{V})$
+	\item i.e. They are Linear/Linearity
+\end{itemize}
+When I transform the basis using a forward transformation, the transformed Linear map $\tilde{\mathbb{L}^{l}_{i}}$ can be written as:
+\begin{equation}
+	\tilde{\mathbb{L}^{l}_{i}} = \mathbb{B}^{l}_{k} \mathbb{L}^{k}_{j} \mathbb{F}^{j}_{i}
+\end{equation}
+
+\section{Metric Tensor}
+\begin{itemize}
+	\item Pythagoras' theorem is a lie for non-orthonormal bases
+	\item The metric Tensor is Tensor that helps us compute lengths and angles
+	\item For two dimensions it can be written as:
+\end{itemize}
+$$\textit{g}_{ij} = \begin{bmatrix}
+e_{1}e_{1} & e_{1}e_{2} \\
+e_{2}e_{1} & e_{2}e_{2} 
+\end{bmatrix}$$
+\begin{itemize}
+	\item Or more abstractly
+\end{itemize}
+$$\textit{g}_{ij} = e_{i}e_{j}$$
+\begin{itemize}
+	\item The dot product between two vectors can be written as
+\end{itemize}
+$$||\vec{v}|| ||\vec{w}||\cos{\theta} = v^{i}w^{j}\textit{g}_{ij}$$
+\begin{itemize}
+	\item we can see how this allows us to compute angles as well
+	\item To transform the components of the Metric Tensor we have to apply the transformation twice i.e.$\tilde{g}_{\rho \sigma} = \mathbb{F}^{\mu}_{\rho} \mathbb{F}^{\nu}_{\sigma}\tilde{g}_{\mu \nu}$ or $g_{\rho \sigma} = \mathbb{B}^{\mu}_{\rho} \mathbb{B}^{\nu}_{\sigma}\tilde{g}_{\mu \nu}$
+\end{itemize}
+
+\section{Bilinear Forms}
+
+\section{Tensor Products}
+
+\section{Definition of a Tensor}
+
+\section{Raising and Lowering Indices}
+\section{Covariant Quantities}
+\section{Contravariant Quantities}
+\section{Clearer Definitions}
+\section{Covariant Differentiation}
+
+\end{document}
