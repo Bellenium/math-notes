@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  29 NOV 2020 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  1 DEC 2020 22:55
 entering extended mode
 **"./Notes on Tensors.tex"
 ("Notes on Tensors.tex"
@@ -716,7 +716,7 @@ n/12 = [] []$
  []
 
 [8] [9] [10] [11]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 301
+LaTeX Font Info:    Trying to load font information for U+euf on input line 302
 .
  ("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -730,28 +730,22 @@ Chapter 2.
 
 
 
-] [14] [15]
-Overfull \hbox (13.6912pt too wide) in paragraph at lines 112--113
+] [14] [15] [16]
+Overfull \hbox (13.6912pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/12 The Levi-Civita Pseu-doten-sor i.e. Ten-sor den-sity is a com-p
 letely anti-symmetric
  []
 
-[16] [17] [18] [19] [20]
+[17] [18] [19] [20] [21]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 287.
 
-[21]) [22]
-Overfull \hbox (113.98pt too wide) in paragraph at lines 46--48
-[]\OT1/cmr/m/n/12 PsycINFO. (n.d.). Home [YouTube Chan-nel]. Re-trieved from ht
-tp://youtube.com/PsycINFO 
- []
-
-[23
+) [22] [23
 
 
 
@@ -760,41 +754,42 @@ tp://youtube.com/PsycINFO
 ] ("Notes on Tensors.aux" (Chapters/Tensor-Algebra.aux)
 (Chapters/Tensor-Calculus.aux))
 Package rerunfilecheck Info: File `"Notes on Tensors".out' has not changed.
-(rerunfilecheck)             Checksum: 21A694B6B02465204F20E827C1BB0FCB;3336.
+(rerunfilecheck)             Checksum: 1C7EEC25484EDD0C10C267ED6E78DC5B;3121.
  ) 
 Here is how much of TeX's memory you used:
- 17781 strings out of 480236
- 330655 string characters out of 2886654
- 718008 words of memory out of 3000000
- 33829 multiletter control sequences out of 15000+200000
- 552860 words of font info for 95 fonts, out of 3000000 for 9000
+ 17779 strings out of 480236
+ 330610 string characters out of 2886654
+ 718001 words of memory out of 3000000
+ 33827 multiletter control sequences out of 15000+200000
+ 553168 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,88p,545b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbsy1
-0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/
-0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/0.Li
-brary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/0.Librar
-y/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.Library/0. 
-Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/0.Library/0. Softw
-are/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Library/0. Software/M
-ikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. Software/MikTek
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Software/MikTek/font
-s/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/MikTek/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts
-/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:
-/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/
-0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Notes on Tensors.pdf" (28 pages, 331978 bytes).
+0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D
+:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/
+0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/0.Li
+brary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/0.Librar
+y/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/0.Library/0.
+ Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.Library/0. Soft
+ware/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/0.Library/0. Software/
+MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Library/0. Software/MikTe
+k/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. Software/MikTek/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Software/MikTek/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/
+cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:
+/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/0.L
+ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/0.Li
+brary/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Notes on Tensors.pdf" (28 pages, 348527 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 

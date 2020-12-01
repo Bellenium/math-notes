@@ -39,9 +39,17 @@ Where $A = \frac{\partial f}{\partial x}$ and $B = \frac{\partial f}{\partial y}
 Or more eloquently,
 $$df = \frac{\partial f}{\partial c^{i}} dc^{i}$$
 \subsection{Covector Field Transformation Rules}
-\subsection{Covector Field Components}
+\begin{itemize}
+\item Covector fields are invaraint to the choice of coordinates
+\item Mind you basis covectors are contravariant and their components are covariant
+\end{itemize}
 \section{Integration with Differential Forms}
-
+$$\int_{P} df$$
+\begin{itemize}
+\item Ever single integral involves a path $P$ and a covector field i.e. a differential form
+\item The result is simply the number of covector curves in the alligned direction pierced by the path
+\item There are two types of geometry: intrinsic i.e. (d-1 basis vectors) and extrinsic taking a bird's eye view of the entire plane (d basis vectors), where the entire structure has d dimensions
+\end{itemize}
 \section{Gradient}
 \begin{equation}
 df(\vec{v}) = \nabla f \cdot \vec{v} 
@@ -66,6 +74,20 @@ we find that
 \end{equation}
 the inverese metric takes us from the Gradient to the differential. We can also expand the components out as alinear combinations of the basis or in vector notation. It is quite common in this context to use $\flat$ and $\sharp$ instead of $\mathfrak{g}^{ij}$ and $g_{ij}$ .
 \section{Geodesics}
+\begin{itemize}
+\item A geodesic is the straightest possible path in a curved surface/space. 
+\item A Geodesic curve has zero tangential acceleration when we travel along it at constant speed.
+\item This is the Geodesic equation, solving it for a particular $u$ will tell you about the path a particle with zero velocity will have along the line $\lambda$
+\end{itemize}
+\begin{equation}
+\frac{d^{2} u^{k}}{d \lambda^{2}} + \Gamma^{k}_{ij}\frac{d u^{i}}{d \lambda}\frac{d u^{j}}{d \lambda} = 0
+\end{equation}
+\begin{itemize}
+\item  Parallel Transport of a vector along a curve is the closest we can get to a “constant” vector field i.e. a vector field whose vectors are independent of any parameter
+\item The Geodesic is a curve resulting from parallel transporting  a vector along itself i.e. $\nabla_{\vec{V}}\vec{V}$
+\item It is in a sense the "straightest possible path" in a curved space
+\item The covariant Derivative helps us find parallel transported vector fields
+\end{itemize}
 \section{Covariant Derivative}
 The covariant derivative of a vector field $v^{\mu}$ is defined as,
 \begin{equation}
@@ -94,6 +116,7 @@ and of a tensor $t^{\alpha}_{\beta}$,
 \begin{equation}
 \nabla_{\mu}t^{\alpha}_{\beta} = \partial_{\mu} t^{\alpha}_{\beta} + \Gamma^{\alpha}_{\mu \sigma}t^{\sigma}_{\beta} + \Gamma^{\beta}_{\mu \sigma}t^{\alpha}_{\sigma}
 \end{equation}
+
 \subsection{Properties}
 \begin{itemize}
 \item The covariant derivative produces, as its name says, covariant expressions.
@@ -101,7 +124,7 @@ and of a tensor $t^{\alpha}_{\beta}$,
 \item $g^{\alpha \gamma} \nabla_{\alpha}t^{\mu \nu}_{\gamma} = \nabla_{\alpha}(t^{\mu \nu}_{\gamma}g^{\alpha \gamma}) = \nabla_{\alpha}t^{\mu \nu \alpha}$
 \item $\nabla^{\alpha} = g^{\alpha \beta}\nabla_{\beta}$
 \end{itemize}
-\section{Lie Brackets and Flow}
+%\section{Lie Brackets and Flow}
 \section{Interesting Tensors}
 \subsection{Kronecker delta}
 It simply has the ‘function’ of ‘renaming’ an index:
@@ -180,7 +203,7 @@ we can now rewrite Maxwell's equations as:
 \begin{equation}
 \frac{\partial G^{\alpha \beta}}{\partial x^{\alpha}} = 0
 \end{equation}
-\subsection{Torsion Tensor}
+%\subsection{Torsion Tensor}
 \subsection{The Riemann Curvature Tensor}
 \subsubsection{Derivation}
 To begin this process we first take the covariant derivative of a vector $V_{\alpha}$, with respect to $x^{\beta}$,

@@ -27,22 +27,19 @@
 \BOOKMARK [1][-]{section.2.2}{Covector Field}{chapter.2}% 27
 \BOOKMARK [2][-]{subsection.2.2.1}{Covector Field Components}{section.2.2}% 28
 \BOOKMARK [2][-]{subsection.2.2.2}{Covector Field Transformation Rules}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.3}{Covector Field Components}{section.2.2}% 30
-\BOOKMARK [1][-]{section.2.3}{Integration with Differential Forms}{chapter.2}% 31
-\BOOKMARK [1][-]{section.2.4}{Gradient}{chapter.2}% 32
-\BOOKMARK [1][-]{section.2.5}{Geodesics}{chapter.2}% 33
-\BOOKMARK [1][-]{section.2.6}{Covariant Derivative}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.6.1}{Properties}{section.2.6}% 35
-\BOOKMARK [1][-]{section.2.7}{Lie Brackets and Flow}{chapter.2}% 36
-\BOOKMARK [1][-]{section.2.8}{Interesting Tensors}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.8.1}{Kronecker delta}{section.2.8}% 38
-\BOOKMARK [2][-]{subsection.2.8.2}{Levi-Civita Pseudotensor}{section.2.8}% 39
-\BOOKMARK [2][-]{subsection.2.8.3}{Electromagnetic Field Tensor}{section.2.8}% 40
-\BOOKMARK [2][-]{subsection.2.8.4}{Torsion Tensor}{section.2.8}% 41
-\BOOKMARK [2][-]{subsection.2.8.5}{The Riemann Curvature Tensor}{section.2.8}% 42
-\BOOKMARK [2][-]{subsection.2.8.6}{The Ricci Tensor}{section.2.8}% 43
-\BOOKMARK [2][-]{subsection.2.8.7}{Einstein Tensor}{section.2.8}% 44
-\BOOKMARK [1][-]{section.2.9}{Interesting Scalars}{chapter.2}% 45
-\BOOKMARK [2][-]{subsection.2.9.1}{g}{section.2.9}% 46
-\BOOKMARK [2][-]{subsection.2.9.2}{Volume Element}{section.2.9}% 47
-\BOOKMARK [2][-]{subsection.2.9.3}{Ricci Scalar}{section.2.9}% 48
+\BOOKMARK [1][-]{section.2.3}{Integration with Differential Forms}{chapter.2}% 30
+\BOOKMARK [1][-]{section.2.4}{Gradient}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.5}{Geodesics}{chapter.2}% 32
+\BOOKMARK [1][-]{section.2.6}{Covariant Derivative}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.6.1}{Properties}{section.2.6}% 34
+\BOOKMARK [1][-]{section.2.7}{Interesting Tensors}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.7.1}{Kronecker delta}{section.2.7}% 36
+\BOOKMARK [2][-]{subsection.2.7.2}{Levi-Civita Pseudotensor}{section.2.7}% 37
+\BOOKMARK [2][-]{subsection.2.7.3}{Electromagnetic Field Tensor}{section.2.7}% 38
+\BOOKMARK [2][-]{subsection.2.7.4}{The Riemann Curvature Tensor}{section.2.7}% 39
+\BOOKMARK [2][-]{subsection.2.7.5}{The Ricci Tensor}{section.2.7}% 40
+\BOOKMARK [2][-]{subsection.2.7.6}{Einstein Tensor}{section.2.7}% 41
+\BOOKMARK [1][-]{section.2.8}{Interesting Scalars}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.8.1}{g}{section.2.8}% 43
+\BOOKMARK [2][-]{subsection.2.8.2}{Volume Element}{section.2.8}% 44
+\BOOKMARK [2][-]{subsection.2.8.3}{Ricci Scalar}{section.2.8}% 45

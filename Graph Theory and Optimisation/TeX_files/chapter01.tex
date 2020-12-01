@@ -22,7 +22,7 @@
 \begin{figure}[h]\label{fig_2}
 	\centering
 	\includegraphics[scale = 0.1]{2.png}
-	\caption{A visual representation of a simple directed Graph. Here $u$ is called the tail and $v$ the head}
+	\caption{A visual representation of a simple directed Graph. Here $u$ is called the \textbf{tail} and $v$ the \textbf{head}}
 \end{figure}
 \begin{itemize}
 \item There also exist \textbf{directed Edges/Arcs} i.e. , they describe asymmetric relations
@@ -33,7 +33,7 @@
 \item A regular graph of $n$ degrees is called $n-$Regular
 \item  The Complement of a graph $G = (V, E)$ is a graph $\bar{G} = (V, \bar{E})$ on the same set of vertices $V$ and the following set of edges:
 \begin{itemize}
-\item Two vertices are connected in $\bar{G}$ if and only $iff$ they are not connected in $G$ i.e. $(u,v) \in \bar{E} \ iff \  (u,v) \notin E$
+\item Two vertices are connected in $\bar{G}$ $\ iff$ they are not connected in $G$ i.e. $(u,v) \in \bar{E} \ iff \  (u,v) \notin E$
 \item A \textbf{Path} is a continuous sequence of edges that connect two vertices
 \item A \textbf{Walk} in a graph is a sequence of edges, such that each edge except for the first one starts with a vertex where the previous edge ended
 \item The \textbf{Length} of a walk is the number of edges in it
@@ -62,5 +62,20 @@ weights of its edges
 path of the minimum weight
 \item The \textbf{Distance} between two vertices is the
 length of a shortest path between them
-\item 
+\item A \textbf{Path Graph} $P_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and $n-1$ edges $\{v_{n-1}, v_{n}\}$
+\item A \textbf{Cycle Graph} $P_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and $n-1$ edges $\{v_{n-1}, v_{n}\}$
 \end{itemize}
+\section{Trees}
+\subsection{How to make a tree?}
+\section{Bipartite Graphs}
+\begin{itemize}
+\item A graph $G$ is \textbf{Bipartite} if its vertices can be partitioned into two disjoint sets (sets with no common elements) $L$ and $R$ such that every edge of $G$ connects a vertex in $L$ to a vertex in $R$  i.e., no edge connects two vertices from
+the same part
+\item $L$ and $R$ are called the parts of $G$
+\end{itemize}
+\subsection{Examples and counter examples}
+\begin{figure}[h]\label{fig_2}
+	\centering
+	\includegraphics[scale = 0.1]{2.png}
+	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite}
+\end{figure}
