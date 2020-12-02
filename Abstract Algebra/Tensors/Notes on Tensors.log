@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  1 DEC 2020 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  2 DEC 2020 07:58
 entering extended mode
 **"./Notes on Tensors.tex"
 ("Notes on Tensors.tex"
@@ -677,23 +677,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 \openout7 = `"Notes on Tensors.toc"'.
 
- [4] [1
-
-
-]
+ [4]
 \openout2 = `./Chapters/Tensor-Algebra.aux'.
 
- (Chapters/Tensor-Algebra.tex [2
-
-
-]
+ (Chapters/Tensor-Algebra.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[3] [4] [5]
+[1
+
+
+
+] [2] [3]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -703,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-[6] [7]
+[4] [5]
 Overfull \hbox (26.26178pt too wide) in paragraph at lines 168--169
 []\OT1/cmr/m/n/12 Divergence: $\OMS/cmsy/m/n/12 r  [] \OT1/cmr/m/n/12 = [] []$
  
@@ -715,51 +713,51 @@ Overfull \hbox (36.03891pt too wide) in paragraph at lines 174--175
 n/12 = [] []$ 
  []
 
-[8] [9] [10] [11]
+[6] [7] [8] [9]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 302
 .
  ("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) [12]
+)) [10]
 \openout2 = `./Chapters/Tensor-Calculus.aux'.
 
  (Chapters/Tensor-Calculus.tex
 Chapter 2.
-[13
+[11
 
 
 
 
-] [14] [15] [16]
-Overfull \hbox (13.6912pt too wide) in paragraph at lines 135--136
+] [12] [13] [14] [15]
+Overfull \hbox (13.6912pt too wide) in paragraph at lines 142--143
 \OT1/cmr/m/n/12 The Levi-Civita Pseu-doten-sor i.e. Ten-sor den-sity is a com-p
 letely anti-symmetric
  []
 
-[17] [18] [19] [20] [21]
+[16] [17] [18] [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 294.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 294.
 
-) [22] [23
+[20]) [21] [22
 
 
 
-] [24
+] [23] [24
 
-] ("Notes on Tensors.aux" (Chapters/Tensor-Algebra.aux)
-(Chapters/Tensor-Calculus.aux))
+] ("Notes on Tensors.aux" (Chapters/Tensor-Algebra.aux) (Chapters/Tensor-Calcul
+us.aux))
 Package rerunfilecheck Info: File `"Notes on Tensors".out' has not changed.
 (rerunfilecheck)             Checksum: 1C7EEC25484EDD0C10C267ED6E78DC5B;3121.
  ) 
 Here is how much of TeX's memory you used:
- 17779 strings out of 480236
- 330610 string characters out of 2886654
- 718001 words of memory out of 3000000
+ 17778 strings out of 480236
+ 330600 string characters out of 2886654
+ 717000 words of memory out of 3000000
  33827 multiletter control sequences out of 15000+200000
  553168 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -787,9 +785,9 @@ b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:
 /0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/0.L
 ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/0.Li
 brary/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Notes on Tensors.pdf" (28 pages, 348527 bytes).
+Output written on "Notes on Tensors.pdf" (28 pages, 352052 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
+ 550 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
  373 words of extra memory for PDF output out of 10000 (max. 10000000)
 

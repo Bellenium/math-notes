@@ -1,4 +1,5 @@
 \chapter{Basics}
+\section{Definitions}
 \begin{itemize}
 \item A Graph is a set of objects and the relationships between pairs of objects
 \item A Graph $G(V,E)$, is a set of V \textbf{Vertices/nodes} and $E$ \textbf{Edges}
@@ -29,6 +30,9 @@
 \item Adding \ref{fig_2} to another directed graph with the same vertices but the edge pointing in the other direction results in a non-directed graph
 \item \textbf{Degree} of a vertex is the number of its incident edges i.e. neighbours denoted by $deg(v)$
 \item The degree of a graph is the maximum degree of its vertices
+\end{itemize}
+\section{Types of Graph}
+\begin{itemize}
 \item A \textbf{Regular graph} is a graph where each vertex has the same degree
 \item A regular graph of $n$ degrees is called $n-$Regular
 \item  The Complement of a graph $G = (V, E)$ is a graph $\bar{G} = (V, \bar{E})$ on the same set of vertices $V$ and the following set of edges:
@@ -62,20 +66,49 @@ weights of its edges
 path of the minimum weight
 \item The \textbf{Distance} between two vertices is the
 length of a shortest path between them
-\item A \textbf{Path Graph} $P_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and $n-1$ edges $\{v_{n-1}, v_{n}\}$
-\item A \textbf{Cycle Graph} $P_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and $n-1$ edges $\{v_{n-1}, v_{n}\}$
 \end{itemize}
+\begin{itemize}
+\item A \textbf{Path Graph} $P_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and $n-1$ edges $\{v_{n-1}, v_{n}\}$
+\end{itemize}
+\begin{figure}[h]\label{fig_3}
+	\centering
+	\includegraphics[scale = 0.1]{3.png}
+	\caption{The Path Graph $P_{3}$}
+\end{figure}
+\begin{itemize}
+\item A \textbf{Cycle Graph} $C_{n} \ \forall \ n \geq 3$, has $n$ vertices labeled $v_{n}$ and $n$ edges $\{v_{n-1}, v_{n}\},\{v_{n}, v_{1}\}$
+\end{itemize}
+\begin{figure}[h]\label{fig_4}
+	\centering
+	\includegraphics[scale = 0.2]{4.png}
+	\caption{The Cycle Graph $C_{5}$}
+\end{figure}
+\pagebreak
+\begin{itemize}
+	\item A \textbf{Complete Graph (a.k.a Clique)} $K_{n} \ \forall \ n \geq 2$, has $n$ vertices labeled $v_{n}$ and all edges between them (i.e. $n(n-1)/2$ edges )
+\end{itemize}
+\begin{figure}[h]\label{fig_5}
+	\centering
+	\includegraphics[scale = 0.2]{5.png}
+	\caption{The Clique Graph $K_{5}$}
+\end{figure}
 \section{Trees}
+\begin{itemize}
+\item A tree is a connected graph without cycles
+\item A tree is a connected graph on $n$ vertices with $n - 1$ edges
+\item A graph is a tree if and only if there is a unique simple path between any pair of its vertices
+\end{itemize}
 \subsection{How to make a tree?}
 \section{Bipartite Graphs}
 \begin{itemize}
 \item A graph $G$ is \textbf{Bipartite} if its vertices can be partitioned into two disjoint sets (sets with no common elements) $L$ and $R$ such that every edge of $G$ connects a vertex in $L$ to a vertex in $R$  i.e., no edge connects two vertices from
 the same part
 \item $L$ and $R$ are called the parts of $G$
+\item Trees are Bipartite Graphs
 \end{itemize}
 \subsection{Examples and counter examples}
 \begin{figure}[h]\label{fig_2}
 	\centering
-	\includegraphics[scale = 0.1]{2.png}
-	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite}
+	\includegraphics[scale = 0.1]{4.png}
+	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite. However, }
 \end{figure}

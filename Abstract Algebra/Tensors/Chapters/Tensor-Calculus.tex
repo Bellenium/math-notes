@@ -84,9 +84,11 @@ the inverese metric takes us from the Gradient to the differential. We can also 
 \end{equation}
 \begin{itemize}
 \item  Parallel Transport of a vector along a curve is the closest we can get to a “constant” vector field i.e. a vector field whose vectors are independent of any parameter
+\item Parallel Transport provides a connection between tangent spaces in a curved space
 \item The Geodesic is a curve resulting from parallel transporting  a vector along itself i.e. $\nabla_{\vec{V}}\vec{V}$
 \item It is in a sense the "straightest possible path" in a curved space
 \item The covariant Derivative helps us find parallel transported vector fields
+\item Covariant Derivative provides a connection between tangent spaces in a curved space
 \end{itemize}
 \section{Covariant Derivative}
 The covariant derivative of a vector field $v^{\mu}$ is defined as,
@@ -104,7 +106,7 @@ component of the derivative points. We define the Christoffel symbol in terms of
 \begin{equation}
 \Gamma^{\alpha}_{\ \mu \nu} = \frac{1}{2} g^{\alpha \beta} \left(\frac{\partial g_{\beta \nu}}{\partial x^{\mu}} + \frac{\partial g_{\beta \mu}}{\partial x^{\nu}} - \frac{\partial g_{\mu \nu}}{\partial x^{\beta}}\right) = \frac{1}{2}g^{\alpha \beta} \left(g_{\beta \nu, \mu} + g_{\beta \mu, \nu} - g_{\mu \nu, \beta}\right)
 \end{equation}
-We can define the covariant derivative of a covector as,
+The connection coefficients defined here are of the Levi-Civita Connection. It a unique connection (covariant derivative) that is Torsion-Free and has Metric Compatibility. We can then define the covariant derivative of a covector as,
 \begin{equation}
 \nabla_{\mu} w_{\alpha} = w^{\alpha}_{ \  ; \mu} = \partial_{\mu} w_{\alpha} + \Gamma^{\alpha}_{\mu \nu} w_{\nu}
 \end{equation}
@@ -123,6 +125,11 @@ and of a tensor $t^{\alpha}_{\beta}$,
 \item $\nabla_{\mu} g_{\alpha \beta} = 0$
 \item $g^{\alpha \gamma} \nabla_{\alpha}t^{\mu \nu}_{\gamma} = \nabla_{\alpha}(t^{\mu \nu}_{\gamma}g^{\alpha \gamma}) = \nabla_{\alpha}t^{\mu \nu \alpha}$
 \item $\nabla^{\alpha} = g^{\alpha \beta}\nabla_{\beta}$
+\item $\nabla_{\partial_{i}}(a) = \frac{\partial a}{\partial u^{i}}$ i.e. for a scalar
+\item $\nabla_{\partial_{i}}(\vec{V}) = \left(\frac{\partial V^{k}}{\partial u^{i}} + V^{j} \Gamma^{k}_{ij}\right) \vec{e}_{k}$ i.e. for a vector
+\item $\nabla_{\partial_{i}}(\alpha) = \left(\frac{\partial \alpha_{k}}{\partial u^{i}} - \alpha_{j} \Gamma^{j}_{ik}\right) \epsilon^{k}$ i.e. for a covector
+\item $\nabla_{\partial_{i}}(T) = \left(\frac{\partial T_{rs}}{\partial u^{i}} - T_{ks} \Gamma^{k}_{ir} - T_{rk} \Gamma^{k}_{is}\right) (\epsilon^{r} \otimes \epsilon^{s})$ i.e. a tensor
+\item $\nabla_{\vec{W}}(T \otimes S) = (\nabla_{\vec{W}}T) \otimes S + T \otimes (\nabla_{\vec{W}}S)$ i.e. for a tensor product
 \end{itemize}
 %\section{Lie Brackets and Flow}
 \section{Interesting Tensors}
