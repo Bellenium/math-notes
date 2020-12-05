@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  2 DEC 2020 07:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  2 DEC 2020 20:30
 entering extended mode
 **"./Notes on Tensors.tex"
 ("Notes on Tensors.tex"
@@ -757,7 +757,7 @@ Package rerunfilecheck Info: File `"Notes on Tensors".out' has not changed.
 Here is how much of TeX's memory you used:
  17778 strings out of 480236
  330600 string characters out of 2886654
- 717000 words of memory out of 3000000
+ 717001 words of memory out of 3000000
  33827 multiletter control sequences out of 15000+200000
  553168 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -785,7 +785,7 @@ b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:
 /0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/0.L
 ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/0.Li
 brary/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Notes on Tensors.pdf" (28 pages, 352052 bytes).
+Output written on "Notes on Tensors.pdf" (28 pages, 352074 bytes).
 PDF statistics:
  550 PDF objects out of 1000 (max. 8388607)
  136 named destinations out of 1000 (max. 500000)

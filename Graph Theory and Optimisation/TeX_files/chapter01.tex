@@ -80,7 +80,7 @@ length of a shortest path between them
 \end{itemize}
 \begin{figure}[h]\label{fig_4}
 	\centering
-	\includegraphics[scale = 0.2]{4.png}
+	\includegraphics[scale = 0.1]{4.png}
 	\caption{The Cycle Graph $C_{5}$}
 \end{figure}
 \pagebreak
@@ -89,7 +89,7 @@ length of a shortest path between them
 \end{itemize}
 \begin{figure}[h]\label{fig_5}
 	\centering
-	\includegraphics[scale = 0.2]{5.png}
+	\includegraphics[scale = 0.1]{5.png}
 	\caption{The Clique Graph $K_{5}$}
 \end{figure}
 \section{Trees}
@@ -98,17 +98,46 @@ length of a shortest path between them
 \item A tree is a connected graph on $n$ vertices with $n - 1$ edges
 \item A graph is a tree if and only if there is a unique simple path between any pair of its vertices
 \end{itemize}
+\begin{figure}[h]\label{fig_2}
+	\centering
+	\includegraphics[scale = 0.15]{6.png}
+	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite. However, }
+\end{figure}
+\begin{figure}[h]\label{fig_2}
+	\centering
+	\includegraphics[scale = 0.15]{7.png}
+	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite. However, }
+\end{figure}
 \subsection{How to make a tree?}
+\begin{itemize}
+\item Remove any edge, keeping the Graph connected
+\end{itemize}
+\begin{figure}[h]\label{fig_5}
+	\centering
+	\includegraphics[scale = 0.1]{8.1.png}
+\end{figure}
+\begin{itemize}
+\item Stop only when $n-1$ edges are left
+\end{itemize}
+\begin{figure}[h]\label{fig_5}
+	\centering
+	\includegraphics[scale = 0.1]{8.1.png}
+\end{figure}
 \section{Bipartite Graphs}
 \begin{itemize}
 \item A graph $G$ is \textbf{Bipartite} if its vertices can be partitioned into two disjoint sets (sets with no common elements) $L$ and $R$ such that every edge of $G$ connects a vertex in $L$ to a vertex in $R$  i.e., no edge connects two vertices from
 the same part
 \item $L$ and $R$ are called the parts of $G$
 \item Trees are Bipartite Graphs
+\begin{figure}[h]\label{fig_2}
+	\centering
+	\includegraphics[scale = 0.1]{9.png}
+	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite. However, }
+\end{figure}
 \end{itemize}
 \subsection{Examples and counter examples}
 \begin{figure}[h]\label{fig_2}
 	\centering
 	\includegraphics[scale = 0.1]{4.png}
-	\caption{$C_{5}$ is not bipartite. In general, for odd $n > 2$, $C_{n}$ is not bipartite. However, }
+	\caption{$K_{2,3}$ is bipartite}
 \end{figure}

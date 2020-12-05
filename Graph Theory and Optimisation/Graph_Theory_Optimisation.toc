@@ -3,6 +3,6 @@
 \contentsline {section}{\numberline {1.2}Types of Graph}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Trees}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}How to make a tree?}{4}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Bipartite Graphs}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Bipartite Graphs}{5}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Examples and counter examples}{5}{subsection.1.4.1}%
 \contentsline {chapter}{\numberline {2}Optimization}{7}{chapter.2}%
