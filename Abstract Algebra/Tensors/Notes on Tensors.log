@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  2 DEC 2020 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  19 DEC 2020 08:17
 entering extended mode
 **"./Notes on Tensors.tex"
 ("Notes on Tensors.tex"
@@ -747,18 +747,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] [23] [24
+] [23
 
-] ("Notes on Tensors.aux" (Chapters/Tensor-Algebra.aux) (Chapters/Tensor-Calcul
-us.aux))
+] ("Notes on Tensors.aux" (Chapters/Tensor-Algebra.aux)
+(Chapters/Tensor-Calculus.aux))
 Package rerunfilecheck Info: File `"Notes on Tensors".out' has not changed.
 (rerunfilecheck)             Checksum: 1C7EEC25484EDD0C10C267ED6E78DC5B;3121.
  ) 
 Here is how much of TeX's memory you used:
- 17778 strings out of 480236
- 330600 string characters out of 2886654
- 717001 words of memory out of 3000000
- 33827 multiletter control sequences out of 15000+200000
+ 17797 strings out of 480236
+ 330705 string characters out of 2886654
+ 717243 words of memory out of 3000000
+ 33837 multiletter control sequences out of 15000+200000
  553168 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,88p,545b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -785,9 +785,9 @@ b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:
 /0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/0.L
 ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/0.Li
 brary/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Notes on Tensors.pdf" (28 pages, 352074 bytes).
+Output written on "Notes on Tensors.pdf" (27 pages, 352854 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
  373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
